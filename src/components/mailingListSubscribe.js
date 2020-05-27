@@ -23,7 +23,7 @@ class MailingListSubscribe extends React.Component {
       <>
         <>
           <div
-            className="container sm:p-1 md:p-5 lg:p-7"
+            className="container p-3 sm:p-1 md:p-5 lg:p-7"
             style={{padding: "10px 10px"}}
             id="mc_embed_signup"
           >

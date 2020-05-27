@@ -5,6 +5,7 @@
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "axios": "^0.19.2",
+    "cross-spawn": "^7.0.3",
     "gatsby": "2.22.9",
     "gatsby-plugin-manifest": "2.4.9",
     "gatsby-plugin-offline": "3.2.7",

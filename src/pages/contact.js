@@ -4,24 +4,24 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Obfuscate from "react-obfuscate";
 import {Zoom} from "react-reveal";
-import {MobileView, BrowserView} from "react-device-detect";
+import {BrowserView} from "react-device-detect";
+
+// Common
+import Breadcrumb from "../common/breadcrumb";
+import BreadcrumbItem from "../common/breadcrumbItem";
 
 function ContactPage() {
   return (
     <Layout>
-      <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Contact Us"
-      />
+      <SEO keywords={[``, ``, ``, ``]} title="Contact Us" />
 
-      <section className="flex-1 full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
+      <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
+        <Breadcrumb>
+          <BreadcrumbItem title="Contact" />
+        </Breadcrumb>
+
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div>
-            <MobileView>
-              <h1 className="chat-notification-title">Contact Us</h1>
-              <br />
-            </MobileView>
-
             <Zoom>
               <figure>
                 <img
@@ -98,6 +98,8 @@ function ContactPage() {
           </div>
         </div>
       </section>
+      <br />
+      <br />
     </Layout>
   );
 }
