@@ -35,7 +35,7 @@ function ContactPage() {
           </div>
           <div>
             <BrowserView>
-              <h1 className="chat-notification-title">Contact Us</h1>
+              <h1 className="text-2xl">Contact Us</h1>
               <br />
             </BrowserView>
             <p>

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "gatsby";
 import PropTypes from "prop-types";
 
 const BreadcrumbItem = props => {
@@ -8,9 +9,9 @@ const BreadcrumbItem = props => {
         <span className="mx-2 text-gray-600">/</span>
       </li>
       <li>
-        <a href={props.href} className="text-gray-700">
+        <Link to={props.href} className="text-gray-700">
           {props.title}
-        </a>
+        </Link>
       </li>
     </>
   );
