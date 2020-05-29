@@ -9,6 +9,8 @@ import SocialMediaIcons from "./socialMediaIcons";
 function Footer() {
   return (
     <>
+      <br />
+      <br />
       <footer>
         <div className="bg-gray-300">
           <div className="container p-8">

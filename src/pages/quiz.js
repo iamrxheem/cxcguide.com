@@ -73,9 +73,6 @@ function IndexPage() {
             Our quizzes are made from the most recent past paper questions.
           </p>
         </div>
-
-        <br />
-        <br />
       </section>
     </Layout>
   );
