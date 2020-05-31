@@ -50,12 +50,12 @@ function IndexPage() {
             </p>
 
             <br />
-            <button
-              href=""
+            <Link
+              to="/study/csec"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             >
               Start Studying
-            </button>
+            </Link>
           </div>
 
           <div className="">
@@ -81,12 +81,12 @@ function IndexPage() {
             </p>
 
             <br />
-            <button
-              href=""
+            <Link
+              to="/study/cape"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             >
               Start Studying
-            </button>
+            </Link>
           </div>
         </div>
       </section>

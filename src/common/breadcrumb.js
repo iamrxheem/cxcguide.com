@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "gatsby";
 import PropTypes from "prop-types";
 
 const Breadcrumb = props => {
@@ -8,9 +7,9 @@ const Breadcrumb = props => {
       <nav className="bg-grey-light p-3 rounded font-sans w-full m-4">
         <ol className="list-reset flex text-grey-dark">
           <li>
-            <Link to="/" className="text-blue-400">
+            <a href="/" className="text-blue-400">
               Home
-            </Link>
+            </a>
           </li>
           {props.children}
         </ol>

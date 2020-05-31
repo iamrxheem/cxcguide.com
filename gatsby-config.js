@@ -41,6 +41,15 @@ module.exports = {
         tawkId: "5eb4ff8681d25c0e5849efe4"
         // get this from the tawk script widget
       }
+    },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `tomato`,
+        // Disable the loading spinner.
+        showSpinner: true
+      }
     }
   ]
 };

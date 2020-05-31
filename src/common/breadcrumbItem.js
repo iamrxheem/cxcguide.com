@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "gatsby";
 import PropTypes from "prop-types";
 
 const BreadcrumbItem = props => {
@@ -9,9 +8,12 @@ const BreadcrumbItem = props => {
         <span className="mx-2 text-gray-600">/</span>
       </li>
       <li>
-        <Link to={props.href} className="text-gray-700">
+        <a
+          href={props.href}
+          className={props.notLast ? "text-blue-400" : "text-gray-700"}
+        >
           {props.title}
-        </Link>
+        </a>
       </li>
     </>
   );
@@ -19,7 +21,8 @@ const BreadcrumbItem = props => {
 
 BreadcrumbItem.propTypes = {
   title: PropTypes.node.isRequired,
-  href: PropTypes.node.isRequired
+  href: PropTypes.node.isRequired,
+  notLast: PropTypes.node.isNotRequired
 };
 
 export default BreadcrumbItem;
