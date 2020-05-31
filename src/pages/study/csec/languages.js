@@ -45,7 +45,7 @@ class Page extends React.Component {
         <Layout>
           <SEO
             keywords={[``, ``, ``, ``]}
-            title="CSEC Humanities Study Guides"
+            title="CSEC Languages Study Guides"
             description=""
           />
 

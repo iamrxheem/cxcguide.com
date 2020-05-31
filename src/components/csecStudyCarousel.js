@@ -9,7 +9,7 @@ const CsecStudyCarousel = () => {
           type="radio"
           id="carousel-1"
           name="carousel"
-          aria-hidden="true"
+          ariaHidden="true"
           hidden
           checked="checked"
         />
@@ -18,7 +18,9 @@ const CsecStudyCarousel = () => {
           style={{height: "50vh"}}
         >
           <div className="block h-full w-full bg-indigo-500 text-white text-5xl text-center">
-            Slide 1
+            <>
+              <></>
+            </>
           </div>
         </div>
         <label
@@ -39,7 +41,7 @@ const CsecStudyCarousel = () => {
           type="radio"
           id="carousel-2"
           name="carousel"
-          aria-hidden="true"
+          ariaHidden="true"
           hidden
         />
         <div
@@ -47,7 +49,9 @@ const CsecStudyCarousel = () => {
           style={{height: "50vh"}}
         >
           <div className="block h-full w-full bg-orange-500 text-white text-5xl text-center">
-            Slide 2
+            <>
+              <></>
+            </>
           </div>
         </div>
         <label
@@ -68,7 +72,7 @@ const CsecStudyCarousel = () => {
           type="radio"
           id="carousel-3"
           name="carousel"
-          aria-hidden="true"
+          ariaHidden="true"
           hidden
         />
         <div
@@ -76,7 +80,9 @@ const CsecStudyCarousel = () => {
           style={{height: "50vh"}}
         >
           <div className="block h-full w-full bg-green-500 text-white text-5xl text-center">
-            Slide 3
+            <>
+              <></>
+            </>
           </div>
         </div>
         <label

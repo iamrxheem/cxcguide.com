@@ -6,6 +6,13 @@ import Footer from "./footer";
 import Imports from "./imports";
 
 // Navigation
+import ReactGA from "react-ga";
+
+ReactGA.initialize("UA-165932729-1");
+
+if (process.browser) {
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 function Layout({children}) {
   console.log("flex-1 full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16");
