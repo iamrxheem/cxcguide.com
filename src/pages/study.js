@@ -50,12 +50,12 @@ function IndexPage() {
             </p>
 
             <br />
-            <Link
-              to="/study/csec"
+            <a
+              href="/study/csec"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             >
               Start Studying
-            </Link>
+            </a>
           </div>
 
           <div className="">
@@ -65,12 +65,12 @@ function IndexPage() {
             </MobileView>
 
             <figure>
-              <Link to="/study/cape">
+              <a href="/study/cape">
                 <img
                   className=""
                   src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/cape.png"
                 />
-              </Link>
+              </a>
             </figure>
 
             <br />

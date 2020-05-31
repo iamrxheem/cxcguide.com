@@ -1,18 +1,18 @@
 import React from "react";
 
-import Layout from "../../components/layout";
-import SEO from "../../components/seo";
-import CsecStudyCarousel from "../../components/csecStudyCarousel";
+import Layout from "../../../components/layout";
+import SEO from "../../../components/seo";
+import CsecStudyCarousel from "../../../components/csecStudyCarousel";
 // import {Link} from "gatsby";
 
 // Common
-import Breadcrumb from "../../common/breadcrumb";
-import BreadcrumbItem from "../../common/breadcrumbItem";
+import Breadcrumb from "../../../common/breadcrumb";
+import BreadcrumbItem from "../../../common/breadcrumbItem";
 // import {MobileView} from "react-device-detect";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import {BrowserView, MobileView} from "react-device-detect";
-import SubjectCard from "../../common/subjectCard";
+import SubjectCard from "../../../common/subjectCard";
 
 class Page extends React.Component {
   constructor(props) {
@@ -20,7 +20,6 @@ class Page extends React.Component {
   }
 
   render() {
-    // Responsive
     const responsive = {
       superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -46,14 +45,15 @@ class Page extends React.Component {
         <Layout>
           <SEO
             keywords={[``, ``, ``, ``]}
-            title="CSEC Study Guides and Notes"
+            title="CSEC Humanities Study Guides"
             description=""
           />
 
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Study" href="/study" notLast />
-              <BreadcrumbItem title="CSEC" href="/study/csec" />
+              <BreadcrumbItem title="CSEC" href="/study/csec" notLast />
+              <BreadcrumbItem title="Business" href="/study/csec/business" />
             </Breadcrumb>
           </section>
           <CsecStudyCarousel />
@@ -125,93 +125,52 @@ class Page extends React.Component {
             </MobileView>
 
             <br />
-
-            <>
-              <Carousel
-                ssr={true}
-                responsive={responsive}
-                infinite={false}
-                arrows={true}
-                partialVisible={true}
-                swipeable={true}
-                dots={true}
-                showDots={true}
-                keyBoardControl={true}
-              >
-                <SubjectCard
-                  imgSrc="https://www.stem.org.uk/sites/default/files/blog-images/A%20level%20mathematics.jpg"
-                  title="Mathematics"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/"
-                  title="Chemistry"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/140646992/original/63c17e2b2264b2f0cc3e4cd1a1a0f4376448a34f/do-advanced-maths-algebra-calculus.jpg"
-                  title="Additional Mathematics"
-                  description=""
-                  href="/study/csec"
-                />
-
-                <SubjectCard
-                  imgSrc=""
-                  title="Agricultural Science"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://leverageedu.com/blog/wp-content/uploads/2019/09/Biology.png"
-                  title="Biology"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://www.cbronline.com/wp-content/uploads/2017/01/code-770x513.jpg"
-                  title="Information Technology"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://www.larberthigh.com/_images/17239_s.jpg"
-                  title="Human & Social Biology"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/17947/cover-VideoGamePhysics-Luke_Newsletter-d65c81ebd91933ccb650011f88f9ee74.png"
-                  title="Physics"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://i.pinimg.com/originals/7a/0b/b4/7a0bb454761e4efcff3c0f3b07913349.jpg"
-                  title="Technical Drawing"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/WL_HoursH.jpg?itok=6G_HN_Td&c=d5c762b61c41d41483f1c3d7e4a23004"
-                  title="Integrated Science"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  imgSrc="https://markparkinson.files.wordpress.com/2019/11/physical-education.jpg?w=584"
-                  title="Physical Education and Sports"
-                  description=""
-                  href="/study/csec"
-                />
-                <SubjectCard
-                  title="Industrial Technology"
-                  description=""
-                  href="/study/csec"
-                />
-              </Carousel>
-            </>
+            <div>
+              <>
+                <Carousel
+                  ssr={true}
+                  responsive={responsive}
+                  infinite={false}
+                  arrows={true}
+                  partialVisible={true}
+                  swipeable={true}
+                  dots={true}
+                  showDots={true}
+                  keyBoardControl={true}
+                >
+                  <SubjectCard
+                    title="Principles of Accounts"
+                    description=""
+                    imgSrc="https://www.thebalance.com/thmb/EoMD_9GenTcyaqB23M9HefwgEwI=/1500x1000/filters:fill(auto,1)/best-online-checking-accounts-4158695-FINAL-6788eea628ae4902a43ec3472ca7b7d0.png"
+                    href="/study/csec"
+                  />
+                  <SubjectCard
+                    title="Principles of Business"
+                    description=""
+                    imgSrc="https://d3q6qq2zt8nhwv.cloudfront.net/course/d9957ba6fb5e423eb2fce46b16f52452.jpg"
+                    href="/study/csec"
+                  />
+                  <SubjectCard
+                    title="Economics"
+                    description=""
+                    imgSrc="https://www.elpais.com.co/files/article_main/uploads/2017/02/21/58abcc9c1819c.jpeg"
+                    href="/study/csec"
+                  />
+                  <SubjectCard
+                    title="Office Administration"
+                    description=""
+                    imgSrc="https://wingateave.com.au/wp-content/uploads/2019/06/vector-inside-office-illustration.jpg"
+                    href="/study/csec"
+                  />
+                  <SubjectCard
+                    title="Electronic Document Preparation and Management"
+                    description=""
+                    imgSrc="https://static.vecteezy.com/system/resources/previews/000/120/069/non_2x/office-equipment-vector-set.jpg"
+                    href="/study/csec"
+                  />
+                </Carousel>
+              </>
+            </div>
           </section>
         </Layout>
       </>
