@@ -5,11 +5,13 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.cxcguide.com`,
     title: `CXC Study Guide`,
-    description: `Gatsby starter styled with Tailwind`,
+    description: `The perfect free online study guide for Caribbean CSEC and CAPE students including past papers, study notes quizzes and exercises.`,
     author: `@iamrxheem`
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {

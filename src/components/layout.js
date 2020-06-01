@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Imports from "./imports";
+import MobileMenu from "./mobileMenu";
 
 // Navigation
 import ReactGA from "react-ga";
@@ -22,6 +23,7 @@ function Layout({children}) {
       <Imports />
       <div className="flex flex-col min-h-screen font-sans text-gray-900">
         <Header />
+        <MobileMenu />
         <main className="flex-1 full ">{children}</main>
         <Footer />
       </div>
