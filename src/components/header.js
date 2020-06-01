@@ -1,5 +1,6 @@
 import {graphql, useStaticQuery, Link} from "gatsby";
 import React, {useState} from "react";
+import {BrowserView, MobileView} from "react-device-detect";
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -81,6 +82,16 @@ function Header() {
               {link.title}
             </Link>
           ))}
+          <Link
+            className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
+            key="shop"
+            to="/store"
+          >
+            <BrowserView>
+              <i className="fas fa-shopping-cart"></i>
+            </BrowserView>
+            <MobileView>Store</MobileView>
+          </Link>
         </nav>
       </div>
     </header>

@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import CsecStudyCarousel from "../../components/csecStudyCarousel";
-// import {Link} from "gatsby";
+import {Link} from "gatsby";
 
 // Common
 import Breadcrumb from "../../common/breadcrumb";
@@ -91,36 +91,36 @@ class Page extends React.Component {
 
             <MobileView>
               <div className="justify-center my-8 select-none flex">
-                <a
-                  href="/study/csec/business"
+                <Link
+                  to="/study/csec/business"
                   className="py-2 px-4 shadow-md no-underline rounded-full bg-blue-700 text-white font-sans font-semibold text-sm border-blue btn-primary hover:text-white hover:bg-blue-light focus:outline-none active:shadow-none mr-2"
                 >
                   Business
-                </a>
-                <a
-                  href="/study/csec/humanities"
+                </Link>
+                <Link
+                  to="/study/csec/humanities"
                   className="py-2 px-4 shadow-md no-underline rounded-full bg-pink-700 text-white font-sans font-semibold text-sm border-orange btn-primary hover:text-white hover:bg-orange-light focus:outline-none active:shadow-none mr-2"
                 >
                   Humanities
-                </a>
+                </Link>
               </div>
 
               <div
                 style={{marginTop: "-15px"}}
                 className="justify-center my-8 select-none flex"
               >
-                <a
-                  href="/study/csec/sciences"
+                <Link
+                  to="/study/csec/sciences"
                   className="py-2 px-4 shadow-md no-underline rounded-full bg-red-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2"
                 >
                   Science and Tech
-                </a>
-                <a
-                  href="/study/csec/languages"
+                </Link>
+                <Link
+                  to="/study/csec/languages"
                   className="py-2 px-4 shadow-md no-underline rounded-full bg-orange-700 text-white font-sans font-semibold text-sm border-orange btn-primary hover:text-white hover:bg-orange-light focus:outline-none active:shadow-none mr-2"
                 >
                   Languages
-                </a>
+                </Link>
               </div>
             </MobileView>
 
