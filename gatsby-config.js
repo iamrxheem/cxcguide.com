@@ -13,6 +13,10 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
+    `gatsby-plugin-zeit-now`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-twitter`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -24,6 +28,12 @@ module.exports = {
         theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,
         icon: `src/images/logo.png`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-clicky`,
+      options: {
+        siteId: "101253680"
       }
     },
     {
@@ -51,6 +61,13 @@ module.exports = {
         color: `tomato`,
         // Disable the loading spinner.
         showSpinner: true
+      }
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.cxcguide.com`,
+        stripQueryString: true
       }
     }
   ]
