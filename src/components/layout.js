@@ -24,6 +24,7 @@ function Layout({children}) {
       <div className="flex flex-col min-h-screen font-sans text-gray-900">
         <Header />
         <MobileMenu />
+
         <main className="flex-1 full">{children}</main>
 
         <Footer />

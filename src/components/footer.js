@@ -237,6 +237,9 @@ function Footer() {
                 <li className="text-gray-500 mb-6">
                   <Link to="/feedback">Feedback</Link>
                 </li>
+                <li className="text-gray-500 mb-6">
+                  <Link to="/policies">Our Policies</Link>
+                </li>
               </ul>
             </div>
             <div className="sm:w-1/3 h-auto sm:mt-0 mt-8">

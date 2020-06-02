@@ -4,17 +4,29 @@ import {MobileView} from "react-device-detect";
 const MobileMenu = () => {
   return (
     <MobileView>
-      <div className="flex flex-wrap justify-between px-10 pt-5">
+      <div className="flex flex-wrap justify-between px-3 pt-5">
         <nav className="sm:inline-block">
           <a
             href="/account"
-            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block mr-3"
+            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block mr-6"
           >
-            <i className="fas fa-user fa-lg"></i>
+            <i className="fas fa-bars fa-lg"></i>
+          </a>
+          <a
+            href="#"
+            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block float-right clearfix"
+          >
+            <i className="fas fa-search fa-lg"></i>
           </a>
         </nav>
 
         <nav className="sm:inline-block float-right">
+          <a
+            href="/account"
+            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block mr-6"
+          >
+            <i className="fas fa-user fa-lg"></i>
+          </a>
           <a
             href="/store"
             className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block float-right clearfix"
