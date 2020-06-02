@@ -11,6 +11,7 @@ module.exports = {
     author: `@iamrxheem`
   },
   plugins: [
+    `gatsby-plugin-less`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-zeit-now`,
@@ -21,9 +22,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
-        start_url: `/`,
+        name: `CXC Study Guide`,
+        short_name: `CXC Study Guide`,
+        start_url: `/study`,
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,

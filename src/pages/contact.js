@@ -13,7 +13,7 @@ import BreadcrumbItem from "../common/breadcrumbItem";
 function ContactPage() {
   return (
     <Layout>
-      <SEO keywords={[``, ``, ``, ``]} title="Contact Us" />
+      <SEO keywords={[``, ``, ``, ``]} title="Contact Us" description="" />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb>

@@ -1,8 +1,9 @@
 import React from "react";
+import {MobileView} from "react-device-detect";
 
 const MobileMenu = () => {
   return (
-    <>
+    <MobileView>
       <div className="flex flex-wrap justify-between px-10 pt-5">
         <nav className="sm:inline-block">
           <a
@@ -22,7 +23,7 @@ const MobileMenu = () => {
           </a>
         </nav>
       </div>
-    </>
+    </MobileView>
   );
 };
 

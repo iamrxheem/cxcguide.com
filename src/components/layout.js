@@ -19,15 +19,16 @@ function Layout({children}) {
   console.log("flex-1 full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16");
 
   return (
-    <>
+    <div className="font-sans">
       <Imports />
       <div className="flex flex-col min-h-screen font-sans text-gray-900">
         <Header />
         <MobileMenu />
-        <main className="flex-1 full ">{children}</main>
+        <main className="flex-1 full">{children}</main>
+
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

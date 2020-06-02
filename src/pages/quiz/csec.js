@@ -9,7 +9,10 @@ import Breadcrumb from "../../common/breadcrumb";
 import BreadcrumbItem from "../../common/breadcrumbItem";
 // import {MobileView} from "react-device-detect";
 
-function IndexPage() {
+// Layout
+import CSECQuizLayout from "../../layouts/csecQuizLayout";
+
+function Page() {
   return (
     <Layout>
       <SEO keywords={[``, ``, ``, ``]} title="CSEC Quiz" description="" />
@@ -19,9 +22,17 @@ function IndexPage() {
           <BreadcrumbItem title="Quiz" href="/quiz" notLast />
           <BreadcrumbItem title="CSEC" href="/quiz/csec" />
         </Breadcrumb>
+
+        <h1 className="text-base text-xl">Take a Quiz</h1>
+
+        <br />
+        <CSECQuizLayout>
+          <p>Select a subject to get started</p>
+          <br />
+        </CSECQuizLayout>
       </section>
     </Layout>
   );
 }
 
-export default IndexPage;
+export default Page;

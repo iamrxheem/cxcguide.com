@@ -9,7 +9,11 @@ import {MobileView} from "react-device-detect";
 function IndexPage() {
   return (
     <Layout>
-      <SEO keywords={[``, ``, ``, ``]} title="Frequently Asked Questions" />
+      <SEO
+        keywords={[``, ``, ``, ``]}
+        title="Frequently Asked Questions"
+        description=""
+      />
 
       <br />
       <section className="flex-1 full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
