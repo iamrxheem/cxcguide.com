@@ -244,15 +244,17 @@ function Footer() {
             </div>
             <div className="sm:w-1/3 h-auto sm:mt-0 mt-8">
               <br />
-              <h5 className="text-base text-white sm:text-xl md:text-2xl lg:text-2xl"></h5>
+              <h5 className="text-base text-white sm:text-xl md:text-2xl lg:text-2xl">
+                More Links
+              </h5>
               <br />
 
               <ul className="list-reset leading-normal">
                 <li className="text-gray-500 mb-6">
-                  <Link to="/">...</Link>
+                  <Link to="/policies">Our Policies</Link>
                 </li>
                 <li className="text-gray-500 mb-6">
-                  <Link to="/">...</Link>
+                  <Link to="/mailing-list">Mailing List</Link>
                 </li>
                 <li className="text-gray-500 mb-6">
                   <Link to="/">...</Link>

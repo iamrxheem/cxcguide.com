@@ -1,16 +1,14 @@
 import React from "react";
 
-import Layout from "../../../components/layout";
-import SEO from "../../../components/seo";
-
-// import {Link} from "gatsby";
-import CSECQuizNav from "../../../components/csecQuizNav";
+import Layout from "../../../../components/layout";
+import SEO from "../../../../components/seo";
+// import {MobileView} from "react-device-detect";
+import {Bounce} from "react-reveal";
 
 // Common
-import Breadcrumb from "../../../common/breadcrumb";
-import BreadcrumbItem from "../../../common/breadcrumbItem";
-import {MobileView} from "react-device-detect";
-import "react-multi-carousel/lib/styles.css";
+import Breadcrumb from "../../../../common/breadcrumb";
+import BreadcrumbItem from "../../../../common/breadcrumbItem";
+import CSECMCQNav from "../../../../components/csecMCQNav";
 
 class Page extends React.Component {
   constructor(props) {
@@ -22,55 +20,55 @@ class Page extends React.Component {
       <>
         <Layout>
           <SEO
-            keywords={[
-              `quizzes`,
-              `quiz`,
-              `online quiz`,
-              `cxc`,
-              `csec quiz`,
-              `cxc exam`,
-              `cxc multiple choice`,
-              `free csec`,
-              `cxc study guide`,
-              `cxc jamaica lessons`,
-              `study`,
-              `english a`,
-              `english b`,
-              `social studies`,
-              `cxc mc answers`,
-              `cxc mathematics`,
-              `csec maths`,
-              `csec lessons online`,
-              `cxc textbooks`,
-              `caribbean exams`,
-              `jamaica`,
-              `free cxc study notes`,
-              `Raheem McDonald`
-            ]}
-            title="CSEC Business Quiz"
-            description="Prepare for your CSEC business exams with our online multiple choice quizzes."
+            keywords={[``, ``, ``, ``]}
+            title="CSEC Multiple Choice Answers"
+            description=""
           />
 
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
-              <BreadcrumbItem title="Quiz" href="/quiz" notLast />
-              <BreadcrumbItem title="CSEC" href="/quiz/csec" notLast />
-              <BreadcrumbItem title="Business" href="/quiz/csec/business" />
+              <BreadcrumbItem title="Resources" href="/resources" notLast />
+              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" />
             </Breadcrumb>
+          </section>
 
-            <MobileView>
-              <img
-                src="https://d1klenmqvfdv9g.cloudfront.net/wp-content/uploads/2018/11/Create-Quizzes-Easily-with-a-WordPress-Form-Plugin.jpg"
-                style={{width: "100%"}}
-              />
+          <>
+            <div className="bg-orange-500 p-6 text-white">
               <br />
-            </MobileView>
+              <br />
 
-            <h1 className="text-base text-xl">Take a Quiz</h1>
+              <h6 className="text-2xl">
+                Check out the 2019 answer{" "}
+                <a
+                  href="/resources/catalogue/2019"
+                  className="underline text-white"
+                >
+                  catalogue
+                </a>
+              </h6>
 
-            <CSECQuizNav />
+              <br />
+              <br />
+            </div>
+            <br />
+          </>
 
-            <h6 className="text-xl">Business</h6>
+          <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
+            <h1 className="text-xl text-gray-700">CSEC MC Answers</h1>
+            <>
+              <CSECMCQNav />
+            </>
+
+            <Bounce>
+              <h1 className="text-xl text-gray-700">Business</h1>
+            </Bounce>
+            <br />
+
+            <p className="text-gray-700">
+              Select your course to download available past paper answers.
+            </p>
+
             <br />
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
               <div>
@@ -81,7 +79,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/quiz/csec/office-administration"
+                      href="/resources/MCQ/csec/office-administration"
                       className="text-blue-500"
                     >
                       Office Administration
@@ -92,7 +90,7 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/quiz/csec/poa" className="text-blue-500">
+                    <a href="/resources/MCQ/csec/poa" className="text-blue-500">
                       Principles of Accounts
                     </a>
                   </li>
@@ -101,7 +99,7 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/quiz/csec/pob" className="text-blue-500">
+                    <a href="/resources/MCQ/csec/pob" className="text-blue-500">
                       Principles of Business
                     </a>
                   </li>
@@ -114,7 +112,10 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/quiz/csec/economics" className="text-blue-500">
+                    <a
+                      href="/resources/MCQ/csec/economics"
+                      className="text-blue-500"
+                    >
                       Economics
                     </a>
                   </li>
@@ -124,7 +125,10 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/quiz/csec/edpm" className="text-blue-500">
+                    <a
+                      href="/resources/MCQ/csec/edpm"
+                      className="text-blue-500"
+                    >
                       Electronic Document Preparation and Management
                     </a>
                   </li>

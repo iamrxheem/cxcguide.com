@@ -13,7 +13,18 @@ import BreadcrumbItem from "../common/breadcrumbItem";
 function Page() {
   return (
     <Layout>
-      <SEO keywords={[``, ``, ``, ``]} title="Policies" description="" />
+      <SEO
+        keywords={[
+          `policy`,
+          `privacy`,
+          `privacy policy`,
+          `cxc`,
+          `cxc guidelines`,
+          `terms of service`
+        ]}
+        title="Policies"
+        description=""
+      />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb>

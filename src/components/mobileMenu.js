@@ -14,7 +14,7 @@ const MobileMenu = () => {
           </a>
           <a
             href="#"
-            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block float-right clearfix"
+            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block"
           >
             <i className="fas fa-search fa-lg"></i>
           </a>
@@ -29,7 +29,7 @@ const MobileMenu = () => {
           </a>
           <a
             href="/store"
-            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block float-right clearfix"
+            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block float-right"
           >
             <i className="fas fa-shopping-cart fa-lg"></i>
           </a>

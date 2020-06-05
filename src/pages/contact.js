@@ -98,8 +98,6 @@ function ContactPage() {
           </div>
         </div>
       </section>
-      <br />
-      <br />
     </Layout>
   );
 }

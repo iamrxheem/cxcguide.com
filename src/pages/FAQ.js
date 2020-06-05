@@ -27,7 +27,7 @@ function IndexPage() {
         </Zoom>
 
         <br />
-        <h5 className="chat-notification-title  text-base">
+        <h5 className="chat-notification-title text-base">
           Frequently Asked Questions
         </h5>
 

@@ -58,8 +58,8 @@ function Header() {
               title: `Classes`
             },
             {
-              route: `/join`,
-              title: `Join`
+              route: `/resources`,
+              title: `Resources`
             },
             {
               route: `/blog`,

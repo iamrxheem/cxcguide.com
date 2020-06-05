@@ -68,3 +68,52 @@ body {
 .p-p {
   color: #8a8f94!important;
 }
+
+input[type="radio"] + label span {
+    transition: background .2s,
+      transform .2s;
+}
+
+input[type="radio"] + label span:hover,
+input[type="radio"] + label:hover span{
+  transform: scale(1.2);
+}
+
+input[type="radio"]:checked + label span {
+  background-color: #3490DC;
+  box-shadow: 0px 0px 0px 2px white inset;
+}
+
+input[type="radio"]:checked + label{
+   color: #3490DC;
+}
+
+
+.typewriter {
+ border-right: solid 5px rgba(255,255,255,.75);
+ white-space: nowrap;
+ overflow: hidden;
+ font-family: 'Source Code Pro', monospace;
+ font-size: 28px;
+ color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+.typewriter {
+ animation: animated-text 4s linear 1s 1 normal both,
+            animated-cursor 600ms linear infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+ from{width: 0;}
+ to{width: 310px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+ from{border-right-color: rgba(255,255,255,.75);}
+ to{border-right-color: transparent;}
+}
