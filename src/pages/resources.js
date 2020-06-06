@@ -116,7 +116,7 @@ function Page() {
           <MobileView>
             <br />
           </MobileView>
-          <div className="bg-gray-500 md:ml-3 lg:ml-3 xl:ml-3">
+          <div className="bg-gray-600 md:ml-3 lg:ml-3 xl:ml-3">
             <div className="p-6">
               <br />
               <h6 className="text-white">SUPPORT OUR LOCAL AUTHORS</h6>
@@ -130,7 +130,7 @@ function Page() {
               <br />
               <a
                 href="/store"
-                className="bg-transparent hover:bg-gray-700 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
+                className="bg-transparent hover:bg-gray-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
               >
                 <small className="text-white text-small">SHOP NOW</small>
                 <i className="fas fa-long-arrow-alt-right text-gray-100 pl-2"></i>
