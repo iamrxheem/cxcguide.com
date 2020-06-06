@@ -33,6 +33,7 @@
     "react-collapsible": "^2.8.0",
     "react-device-detect": "^1.12.1",
     "react-dom": "16.13.1",
+    "react-fontawesome": "^1.7.1",
     "react-ga": "^2.7.0",
     "react-helmet": "6.0.0",
     "react-image": "^4.0.0",
