@@ -18,7 +18,7 @@ function Page() {
       <SEO
         keywords={[``, ``, ``, ``]}
         title="CSEC and CAPE Paper 1 Answers"
-        description="download the latest paper 1 answers for CSEC and CAPE subjects, and study online with our free study guides."
+        description="Download the latest paper 1 answers for CSEC and CAPE subjects, and study online with our free study guides."
       />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">

@@ -23,7 +23,7 @@ function Page() {
           `terms of service`
         ]}
         title="Policies"
-        description=""
+        description="This page lists all our policies."
       />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
@@ -51,7 +51,7 @@ function Page() {
         <br />
         <ul className="list-disc ml-6">
           <li className="pb-5">
-            <Link className="text-blue-400" to="/privacyy">
+            <Link className="text-blue-400" to="/privacy">
               Privacy Policy
             </Link>
           </li>

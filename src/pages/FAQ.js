@@ -10,9 +10,9 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[``, ``, ``, ``]}
+        keywords={[`faq`, `frequently aksed questions`, `cxc`, `csec`, `cape`]}
         title="Frequently Asked Questions"
-        description=""
+        description="Have a question? You can find the answers to the most common questions we get asked by our students. If your question is not then let us know."
       />
 
       <br />

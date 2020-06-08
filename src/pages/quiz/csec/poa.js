@@ -20,7 +20,8 @@ class Page extends React.Component {
         <Layout>
           <SEO
             keywords={[
-              ``,
+              `poa`,
+              `Principles of Accounts`,
               `csec`,
               `quiz`,
               `online quiz`,
@@ -36,7 +37,7 @@ class Page extends React.Component {
               `jamaica`
             ]}
             title="CSEC Principles of Accounts Quiz"
-            description="Our Principles of Accounts Biology test quiz will assist you to improve your knowledge in a fun interactive way, and prepare you for your CXC exams."
+            description="Our Principles of Accounts test quiz will assist you to improve your knowledge in a fun interactive way, and prepare you for your CXC exams."
           />
 
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">

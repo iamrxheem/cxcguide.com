@@ -1,6 +1,7 @@
 import React from "react";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
+import {MobileView} from "react-device-detect";
 
 // Common
 import Breadcrumb from "../common/breadcrumb";
@@ -33,7 +34,55 @@ class Page extends React.Component {
     return (
       <>
         <SEO
-          keywords={[``, ``, ``, ``]}
+          keywords={[
+            `cxc`,
+            `mailing list`,
+            `cxc email address`,
+            `cxc study guide`,
+            `cxc past papers`,
+            `csec past papers`,
+            `past papers`,
+            `cxc mathematics study guide`,
+            `cxc english a study guide`,
+            `cxc spanich study guide`,
+            `cxc english b study guide`,
+            `cxc free study guide`,
+            `free`,
+            `study online`,
+            `online learning`,
+            `CXC online learning`,
+            `CAPE past papers`,
+            `CAPE past paper answers`,
+            `free cxc past papers`,
+            `Caribbean Examination Council`,
+            `cxc past papers online`,
+            `paperbin cxc`,
+            `csec exam`,
+            `csec chemistry syllabus`,
+            `free online cxc classes`,
+            `free maths cxc classes`,
+            `free english cxc classes`,
+            `free spanish cxc classes`,
+            `free literature cxc classes`,
+            `free CAPE cxc classes`,
+            `free mob cxc classes`,
+            `free poa cxc classes`,
+            `free pob cxc classes`,
+            `free english cxc classes`,
+            `smile jamaica tvj`,
+            `past paper bin`,
+            `cxc past paper bin`,
+            `jamaica`,
+            `trinidad and tobago`,
+            `cxc model question`,
+            `cxc paper 1`,
+            `cxc july exams`,
+            `Raheem McDonald`,
+            `paperbin`,
+            `past paperbin`,
+            `pastpaperbin.com`,
+            `paperbin.xyz`
+          ]}
           title="Mailing List"
           description="Join our mailing list to get weekly study notes, flash cards and past paper solution."
         />
@@ -43,10 +92,16 @@ class Page extends React.Component {
               <BreadcrumbItem title="Mailing List" />
             </Breadcrumb>
 
+            <MobileView>
+              <img src="https://bowmanvillebaptist.org/wordpress/wp-content/uploads/2019/12/mailman-best-practices.jpg" />
+
+              <br />
+            </MobileView>
+
             <h1 className="text-base text-xl">Mailing list</h1>
 
             <br />
-            <p className="text-base text-gray-700 text-base">
+            <p className="text-base text-gray-600 text-base">
               Join our mailing list to get weekly study notes, flash cards and
               past paper solution.
             </p>

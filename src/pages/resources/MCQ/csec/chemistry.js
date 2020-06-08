@@ -231,66 +231,6 @@ class Page extends React.Component {
                       2010
                     </a>
                   </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/chemistry/2009"
-                      className="text-blue-500"
-                    >
-                      2009
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/chemistry/2008"
-                      className="text-blue-500"
-                    >
-                      2008
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/chemistry/2007"
-                      className="text-blue-500"
-                    >
-                      2019
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/chemistry/2006"
-                      className="text-blue-500"
-                    >
-                      2006
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/chemistry/2006"
-                      className="text-blue-500"
-                    >
-                      2005
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>

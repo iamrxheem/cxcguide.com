@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Carousel from "react-multi-carousel";
+import {MobileView} from "react-device-detect";
 
 const CustomRightArrow = ({onClick, ...rest}) => {
   const {
@@ -62,7 +63,12 @@ const MCQ = props => {
             {props.children}
           </Carousel>
         </div>
-        <div></div>
+        <div>
+          <MobileView>
+            <br />
+          </MobileView>
+          <div id="disqus_thread"></div>
+        </div>
       </div>
     </>
   );

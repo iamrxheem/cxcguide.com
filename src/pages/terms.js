@@ -7,7 +7,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[``, ``, ``, ``]}
+        keywords={[`cxc`, `terms of use`, `privacy`, `cxc guide`]}
         title="Terms of Use"
         description="This note describes our terms of use."
       />

@@ -9,6 +9,7 @@
     "gatsby": "2.22.9",
     "gatsby-plugin-canonical-urls": "^2.3.2",
     "gatsby-plugin-clicky": "^1.0.0",
+    "gatsby-plugin-htaccess": "^1.4.0",
     "gatsby-plugin-less": "^3.2.2",
     "gatsby-plugin-lodash": "^3.3.2",
     "gatsby-plugin-manifest": "2.4.9",

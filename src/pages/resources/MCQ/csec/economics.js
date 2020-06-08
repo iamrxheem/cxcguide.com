@@ -74,7 +74,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2019"
+                      href="/resources/MCQ/csec/economics/2019"
                       className="text-blue-500"
                     >
                       2019
@@ -86,7 +86,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2018"
+                      href="/resources/MCQ/csec/economics/2018"
                       className="text-blue-500"
                     >
                       2018
@@ -98,7 +98,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2017"
+                      href="/resources/MCQ/csec/economics/2017"
                       className="text-blue-500"
                     >
                       2017
@@ -110,7 +110,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2016"
+                      href="/resources/MCQ/csec/economics/2016"
                       className="text-blue-500"
                     >
                       2016
@@ -122,7 +122,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2015"
+                      href="/resources/MCQ/csec/economics/2015"
                       className="text-blue-500"
                     >
                       2015
@@ -134,7 +134,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2014"
+                      href="/resources/MCQ/csec/economics/2014"
                       className="text-blue-500"
                     >
                       2014
@@ -146,7 +146,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2013"
+                      href="/resources/MCQ/csec/economics/2013"
                       className="text-blue-500"
                     >
                       2013
@@ -158,7 +158,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2014"
+                      href="/resources/MCQ/csec/economics/2014"
                       className="text-blue-500"
                     >
                       2014
@@ -175,7 +175,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2013"
+                      href="/resources/MCQ/csec/economics/2013"
                       className="text-blue-500"
                     >
                       2013
@@ -187,7 +187,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2012"
+                      href="/resources/MCQ/csec/economics/2012"
                       className="text-blue-500"
                     >
                       2012
@@ -199,7 +199,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2011"
+                      href="/resources/MCQ/csec/economics/2011"
                       className="text-blue-500"
                     >
                       2011
@@ -211,7 +211,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2010"
+                      href="/resources/MCQ/csec/economics/2010"
                       className="text-blue-500"
                     >
                       2010
@@ -223,7 +223,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2009"
+                      href="/resources/MCQ/csec/economics/2009"
                       className="text-blue-500"
                     >
                       2009
@@ -235,7 +235,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2008"
+                      href="/resources/MCQ/csec/economics/2008"
                       className="text-blue-500"
                     >
                       2008
@@ -247,7 +247,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2007"
+                      href="/resources/MCQ/csec/economics/2007"
                       className="text-blue-500"
                     >
                       2019
@@ -259,7 +259,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2006"
+                      href="/resources/MCQ/csec/economics/2006"
                       className="text-blue-500"
                     >
                       2006
@@ -271,7 +271,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/{}/2006"
+                      href="/resources/MCQ/csec/economics/2006"
                       className="text-blue-500"
                     >
                       2005

@@ -24,6 +24,7 @@ class Page extends React.Component {
               `maths`,
               `mathematics`,
               `csec`,
+              `csec mathematics`,
               `quiz`,
               `online quiz`,
               `cxc past papers`,

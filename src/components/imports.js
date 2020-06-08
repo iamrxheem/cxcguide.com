@@ -5,6 +5,7 @@ const Imports = () => {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="index, follow" />
         <script
           type="text/javascript"
           src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"

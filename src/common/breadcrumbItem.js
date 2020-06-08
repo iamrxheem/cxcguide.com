@@ -10,7 +10,7 @@ const BreadcrumbItem = props => {
       <li>
         <a
           href={props.href}
-          className={props.notLast ? "text-blue-400" : "text-gray-700"}
+          className={props.notLast ? "text-blue-400" : "text-gray-600"}
         >
           {props.title}
         </a>

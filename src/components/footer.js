@@ -256,18 +256,6 @@ function Footer() {
                 <li className="text-gray-500 mb-6">
                   <Link to="/mailing-list">Mailing List</Link>
                 </li>
-                <li className="text-gray-500 mb-6">
-                  <Link to="/">...</Link>
-                </li>
-                <li className="text-gray-400 mb-6">
-                  <Link to="/">...</Link>
-                </li>
-                <li className="text-gray-500 mb-6">
-                  <Link to="/">...</Link>
-                </li>
-                <li className="text-gray-500 mb-6">
-                  <Link to="/">...</Link>
-                </li>
               </ul>
             </div>
             <div className="sm:w-1/3 h-auto sm:mt-0 mt-8">

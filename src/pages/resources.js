@@ -16,7 +16,60 @@ function Page() {
   return (
     <Layout>
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
-        <SEO keywords={[``, ``, ``, ``]} title="" description="" />
+        <SEO
+          keywords={[
+            `cxc`,
+            `free csec past papers`,
+            `cape past papers`,
+            `CAPE`,
+            `cxc study guide`,
+            `cxc past papers`,
+            `csec past papers`,
+            `past papers`,
+            `cxc mathematics study guide`,
+            `cxc english a study guide`,
+            `cxc spanich study guide`,
+            `cxc english b study guide`,
+            `cxc free study guide`,
+            `free`,
+            `study online`,
+            `online learning`,
+            `CXC online learning`,
+            `CAPE past papers`,
+            `CAPE past paper answers`,
+            `free cxc past papers`,
+            `Caribbean Examination Council`,
+            `cxc past papers online`,
+            `paperbin cxc`,
+            `csec exam`,
+            `csec chemistry syllabus`,
+            `free online cxc classes`,
+            `free maths cxc classes`,
+            `free english cxc classes`,
+            `free spanish cxc classes`,
+            `free literature cxc classes`,
+            `free CAPE cxc classes`,
+            `free mob cxc classes`,
+            `free poa cxc classes`,
+            `free pob cxc classes`,
+            `free english cxc classes`,
+            `smile jamaica tvj`,
+            `past paper bin`,
+            `cxc past paper bin`,
+            `jamaica`,
+            `trinidad and tobago`,
+            `cxc model question`,
+            `cxc paper 1`,
+            `cxc july exams`,
+            `Raheem McDonald`,
+            `paperbin`,
+            `past paperbin`,
+            `pastpaperbin.com`,
+            `paperbin.xyz`
+          ]}
+          title="CXC Past Paper Answers & Guides"
+          description="Get free CXC past papers for CSEC and CAPE with answer guides and explanations."
+        />
 
         <Breadcrumb>
           <BreadcrumbItem title="Resources" />
