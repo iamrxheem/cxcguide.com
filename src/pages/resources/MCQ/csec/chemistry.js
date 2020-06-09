@@ -154,6 +154,11 @@ class Page extends React.Component {
                       2014
                     </a>
                   </li>
+                </ul>
+              </div>
+
+              <div>
+                <ul className="ml-1">
                   <li className="pb-5">
                     <i
                       style={{color: "#FF08D7"}}
@@ -178,11 +183,6 @@ class Page extends React.Component {
                       2014
                     </a>
                   </li>
-                </ul>
-              </div>
-
-              <div>
-                <ul className="ml-1">
                   <li className="pb-5">
                     <i
                       style={{color: "#FF08D7"}}

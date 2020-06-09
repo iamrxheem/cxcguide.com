@@ -39,7 +39,7 @@ const Page = () => {
       <SEO
         keywords={[
           `csec`,
-          `Geography`,
+          `Biology`,
           `mc`,
           `multiple choice`,
           `mcq`,
@@ -53,15 +53,15 @@ const Page = () => {
           `past paperbin`,
           `cxcguide`,
           `Raheem McDonald`,
-          `cxc Geography past paper solutions`,
+          `cxc Biology past paper solutions`,
           `2010`,
           `june`,
           `july`,
           `cxc`,
           `caribbean examination council`
         ]}
-        title="CSEC Geography 2019 Paper 1 Answers"
-        description="Download free CSEC Geography 2019 multiple choice answers for both January and June exas, and study online with our online study guide."
+        title="CSEC Biology 2019 Paper 1 Answers"
+        description="Download free CSEC Biology 2019 multiple choice answers for both January and June exas, and study online with our online study guide."
       />
 
       <Layout>
@@ -71,8 +71,8 @@ const Page = () => {
             <BreadcrumbItem title="..." href="/resources/MCQ" notLast />
             <BreadcrumbItem title="..." href="/resources/MCQ/csec" notLast />
             <BreadcrumbItem
-              href="/resources/MCQ/csec/Geography"
-              title="Geography"
+              href="/resources/MCQ/csec/Biology"
+              title="Biology"
               notLast
             />
 
@@ -116,10 +116,10 @@ const Page = () => {
 
         <section className="flex-1 full max-w-6xl px-4 mx-auto py-3">
           <br />
-          <h1 className="text-xl text-gray-700">Geography 2010 MC Answers</h1>
+          <h1 className="text-xl text-gray-700">Biology 2010 MC Answers</h1>
           <br />
           <p className="mt-0 mb-4 text-base text-gray-600">
-            These are the answers for the Geography 2010 exams.
+            These are the answers for the Biology 2010 exams.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">

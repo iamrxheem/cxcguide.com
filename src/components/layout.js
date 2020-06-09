@@ -21,7 +21,7 @@ function Layout({children}) {
   return (
     <div className="font-sans">
       <Imports />
-      <div className="flex flex-col min-h-screen font-sans text-gray-900">
+      <div className="flex flex-col min-h-screen font-sans">
         <Header />
         <MobileMenu />
 

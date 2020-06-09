@@ -9,7 +9,7 @@ import PastPaperSlider from "../components/pastPaperSlider";
 // Common
 import Breadcrumb from "../common/breadcrumb";
 import BreadcrumbItem from "../common/breadcrumbItem";
-import {MobileView} from "react-device-detect";
+import {MobileView, BrowserView} from "react-device-detect";
 import {Bounce} from "react-reveal";
 
 function Page() {
@@ -107,7 +107,9 @@ function Page() {
           Youtube channels and videos made just for students.
         </p>
 
-        <PastPaperSlider />
+        <MobileView>
+          <PastPaperSlider />
+        </MobileView>
       </section>
 
       <br />
@@ -193,6 +195,10 @@ function Page() {
           </div>
         </div>
       </div>
+
+      <BrowserView>
+        <PastPaperSlider />
+      </BrowserView>
     </Layout>
   );
 }

@@ -39,7 +39,7 @@ const Page = () => {
       <SEO
         keywords={[
           `csec`,
-          `chemistry`,
+          `Agricultural Science`,
           `mc`,
           `multiple choice`,
           `mcq`,
@@ -53,15 +53,15 @@ const Page = () => {
           `past paperbin`,
           `cxcguide`,
           `Raheem McDonald`,
-          `cxc chemistry past paper solutions`,
+          `cxc Agricultural Science past paper solutions`,
           `2018`,
           `june`,
           `july`,
           `cxc`,
           `caribbean examination council`
         ]}
-        title="CSEC Chemistry 2019 Paper 1 Answers"
-        description="Download free CSEC Chemistry 2018 multiple choice answers for both January and June exas, and study online with our online study guide."
+        title="CSEC Agricultural Science 2019 Paper 1 Answers"
+        description="Download free CSEC Agricultural Science 2018 multiple choice answers for both January and June exas, and study online with our online study guide."
       />
 
       <Layout>
@@ -71,8 +71,8 @@ const Page = () => {
             <BreadcrumbItem title="..." href="/resources/MCQ" notLast />
             <BreadcrumbItem title="..." href="/resources/MCQ/csec" notLast />
             <BreadcrumbItem
-              href="/resources/MCQ/csec/chemistry"
-              title="Chemistry"
+              href="/resources/MCQ/csec/agricultural-science"
+              title="Agricultural Science"
               notLast
             />
 
@@ -116,10 +116,12 @@ const Page = () => {
 
         <section className="flex-1 full max-w-6xl px-4 mx-auto py-3">
           <br />
-          <h1 className="text-xl text-gray-700">Chemistry 2018 MC Answers</h1>
+          <h1 className="text-xl text-gray-700">
+            Agricultural Science 2018 MC Answers
+          </h1>
           <br />
           <p className="mt-0 mb-4 text-base text-gray-600">
-            These are the answers for the Chemistry 2018 exams.
+            These are the answers for the Agricultural Science 2018 exams.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">

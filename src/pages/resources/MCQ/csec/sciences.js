@@ -175,7 +175,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/additional-mathematics"
+                      href="/resources/MCQ/csec/add-maths"
                       className="text-blue-500"
                     >
                       Additional Mathematics

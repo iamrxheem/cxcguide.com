@@ -20,8 +20,8 @@ class Page extends React.Component {
           <SEO
             keywords={[
               `csec`,
-              `chemistry`,
-
+              `Agricultural Science`,
+              `agri`,
               `mc`,
               `mcq`,
               `cxc answers`,
@@ -36,7 +36,7 @@ class Page extends React.Component {
               `Raheem McDonald`,
               `agricultural science`
             ]}
-            title="CSEC Chemistry Multiple Choice Answers"
+            title="CSEC Agricultural Science Multiple Choice Answers"
             description="Download free CSEC Agricultural Science multiple choice answers, and study online with our online study guide."
           />
 
@@ -51,7 +51,7 @@ class Page extends React.Component {
             <MobileView>
               <img
                 className="rounded"
-                src="https://giftlab.co/wp-content/uploads/2018/04/GiftLab-Covers-2-1.jpg"
+                src="https://i.hurimg.com/i/hdn/75/0x0/5da6f8a50f254420341e14b8.jpg"
                 style={{width: "100%"}}
               />
             </MobileView>
@@ -142,6 +142,11 @@ class Page extends React.Component {
                       2014
                     </a>
                   </li>
+                </ul>
+              </div>
+
+              <div>
+                <ul className="ml-1">
                   <li className="pb-5">
                     <i
                       style={{color: "#FF08D7"}}
@@ -166,11 +171,6 @@ class Page extends React.Component {
                       2014
                     </a>
                   </li>
-                </ul>
-              </div>
-
-              <div>
-                <ul className="ml-1">
                   <li className="pb-5">
                     <i
                       style={{color: "#FF08D7"}}
@@ -217,66 +217,6 @@ class Page extends React.Component {
                       className="text-blue-500"
                     >
                       2010
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/agricultural-science/2009"
-                      className="text-blue-500"
-                    >
-                      2009
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/agricultural-science/2008"
-                      className="text-blue-500"
-                    >
-                      2008
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/agricultural-science/2007"
-                      className="text-blue-500"
-                    >
-                      2019
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/agricultural-science/2006"
-                      className="text-blue-500"
-                    >
-                      2006
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/agricultural-science/2006"
-                      className="text-blue-500"
-                    >
-                      2005
                     </a>
                   </li>
                 </ul>

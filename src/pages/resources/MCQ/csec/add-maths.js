@@ -20,7 +20,7 @@ class Page extends React.Component {
           <SEO
             keywords={[
               `csec`,
-              `chemistry`,
+              `Additional Mathematics`,
 
               `mc`,
               `mcq`,
@@ -37,7 +37,7 @@ class Page extends React.Component {
               ``
             ]}
             title="CSEC Additional Mathematics Multiple Choice Answers"
-            description="Download free CSEC Chemistry multiple choice answers, and study online with our online study guide."
+            description="Download free CSEC Additional Mathematics multiple choice answers, and study online with our online study guide."
           />
 
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
@@ -51,7 +51,7 @@ class Page extends React.Component {
             <MobileView>
               <img
                 className="rounded"
-                src="https://giftlab.co/wp-content/uploads/2018/04/GiftLab-Covers-2-1.jpg"
+                src="https://lh3.googleusercontent.com/proxy/n34-9JWGuLHCJ52HFL1n5zUU-wrTXY-AuzEaOVNJkTvPwqh8xQqCyWZpiSUxaQ9fKoPbUuxP5_65zVFxZzdnsa-RK52VmS4o_p39_dLwrQrTFCWTPggZ1So5kraohOo5etDq_WM_GfoT"
                 style={{width: "100%"}}
               />
             </MobileView>
@@ -142,6 +142,11 @@ class Page extends React.Component {
                       2014
                     </a>
                   </li>
+                </ul>
+              </div>
+
+              <div>
+                <ul className="ml-1">
                   <li className="pb-5">
                     <i
                       style={{color: "#FF08D7"}}
@@ -166,11 +171,6 @@ class Page extends React.Component {
                       2014
                     </a>
                   </li>
-                </ul>
-              </div>
-
-              <div>
-                <ul className="ml-1">
                   <li className="pb-5">
                     <i
                       style={{color: "#FF08D7"}}
@@ -217,66 +217,6 @@ class Page extends React.Component {
                       className="text-blue-500"
                     >
                       2010
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/additional-mathematics/2009"
-                      className="text-blue-500"
-                    >
-                      2009
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/additional-mathematics/2008"
-                      className="text-blue-500"
-                    >
-                      2008
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/additional-mathematics/2007"
-                      className="text-blue-500"
-                    >
-                      2019
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/additional-mathematics/2006"
-                      className="text-blue-500"
-                    >
-                      2006
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/additional-mathematics/2006"
-                      className="text-blue-500"
-                    >
-                      2005
                     </a>
                   </li>
                 </ul>
