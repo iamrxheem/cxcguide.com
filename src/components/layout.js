@@ -6,6 +6,8 @@ import Footer from "./footer";
 import Imports from "./imports";
 import MobileMenu from "./mobileMenu";
 
+// Crisp chat
+import "../assets/js/crispchat.js";
 // Navigation
 import ReactGA from "react-ga";
 

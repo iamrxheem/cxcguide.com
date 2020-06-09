@@ -39,7 +39,7 @@ const Page = () => {
       <SEO
         keywords={[
           `csec`,
-          `chemistry`,
+          `Social Studies`,
           `mc`,
           `multiple choice`,
           `mcq`,
@@ -53,7 +53,7 @@ const Page = () => {
           `past paperbin`,
           `cxcguide`,
           `Raheem McDonald`,
-          `cxc chemistry past paper solutions`,
+          `cxc Social Studies past paper solutions`,
           `2011`,
           `january`,
           `june`,
@@ -61,8 +61,8 @@ const Page = () => {
           `cxc`,
           `caribbean examination council`
         ]}
-        title="CSEC Chemistry 2011 Paper 1 Answers"
-        description="Download free CSEC Chemistry 2019 multiple choice answers for both January and June exas, and study online with our online study guide."
+        title="CSEC Social Studies 2011 Paper 1 Answers"
+        description="Download free CSEC Social Studies 2019 multiple choice answers for both January and June exas, and study online with our online study guide."
       />
 
       <Layout>
@@ -72,8 +72,8 @@ const Page = () => {
             <BreadcrumbItem title="..." href="/resources/MCQ" notLast />
             <BreadcrumbItem title="..." href="/resources/MCQ/csec" notLast />
             <BreadcrumbItem
-              href="/resources/MCQ/csec/chemistry"
-              title="Chemistry"
+              href="/resources/MCQ/csec/social-studies"
+              title="Social Studies"
               notLast
             />
 
@@ -117,10 +117,12 @@ const Page = () => {
 
         <section className="flex-1 full max-w-6xl px-4 mx-auto py-3">
           <br />
-          <h1 className="text-xl text-gray-700">Chemistry 2011 MC Answers</h1>
+          <h1 className="text-xl text-gray-700">
+            Social Studies 2011 MC Answers
+          </h1>
           <br />
           <p className="mt-0 mb-4 text-base text-gray-600">
-            These are the answers for the Chemistry 2011 exams.
+            These are the answers for the Social Studies 2011 exams.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">

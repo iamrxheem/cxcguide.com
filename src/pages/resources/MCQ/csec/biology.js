@@ -20,7 +20,7 @@ class Page extends React.Component {
           <SEO
             keywords={[
               `csec`,
-              `chemistry`,
+              `Biology`,
 
               `mc`,
               `mcq`,

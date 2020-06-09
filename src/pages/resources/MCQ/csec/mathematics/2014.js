@@ -2,7 +2,6 @@ import React from "react";
 
 import Layout from "../../../../../components/layout";
 import SEO from "../../../../../components/seo";
-import {Bounce} from "react-reveal";
 import ResourcesDisclaimer from "../../../../../common/resourcesDisclaimer";
 import {MobileView, BrowserView} from "react-device-detect";
 
@@ -10,36 +9,14 @@ import {MobileView, BrowserView} from "react-device-detect";
 import Breadcrumb from "../../../../../common/breadcrumb";
 import BreadcrumbItem from "../../../../../common/breadcrumbItem";
 import PDFFile from "../../../../../common/PDFFile";
-import Carousel from "react-multi-carousel";
 
 const Page = () => {
-  // Responsive
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: {max: 4000, min: 3000},
-      items: 1
-    },
-    desktop: {
-      breakpoint: {max: 3000, min: 1024},
-      items: 1
-    },
-    tablet: {
-      breakpoint: {max: 1024, min: 464},
-      items: 1
-    },
-    mobile: {
-      breakpoint: {max: 464, min: 0},
-      items: 1
-    }
-  };
-
   return (
     <>
       <SEO
         keywords={[
           `csec`,
-          `chemistry`,
+          `Mathematics`,
           `mc`,
           `multiple choice`,
           `mcq`,
@@ -53,7 +30,7 @@ const Page = () => {
           `past paperbin`,
           `cxcguide`,
           `Raheem McDonald`,
-          `cxc chemistry past paper solutions`,
+          `cxc Mathematics past paper solutions`,
           `2014`,
           `january`,
           `june`,
@@ -61,8 +38,8 @@ const Page = () => {
           `cxc`,
           `caribbean examination council`
         ]}
-        title="CSEC Chemistry 2014 Paper 1 Answers"
-        description="Download free CSEC Chemistry 2014 multiple choice answers for both January and June exas, and study online with our online study guide."
+        title="CSEC Mathematics 2014 Paper 1 Answers"
+        description="Download free CSEC Mathematics 2014 multiple choice answers for both January and June exas, and study online with our online study guide."
       />
 
       <Layout>
@@ -72,8 +49,8 @@ const Page = () => {
             <BreadcrumbItem title="..." href="/resources/MCQ" notLast />
             <BreadcrumbItem title="..." href="/resources/MCQ/csec" notLast />
             <BreadcrumbItem
-              href="/resources/MCQ/csec/chemistry"
-              title="Chemistry"
+              href="/resources/MCQ/csec/mathematics"
+              title="Mathematics"
               notLast
             />
 
@@ -82,45 +59,18 @@ const Page = () => {
         </section>
 
         <MobileView>
-          <Carousel
-            autoPlay
-            ssr={true}
-            responsive={responsive}
-            infinite={true}
-            arrows={false}
-            partialVisible={true}
-            swipeable={true}
-            dots={false}
-            showDots={false}
-            keyBoardControl={true}
-          >
-            <div className="bg-purple-700 p-6 text-white">
-              <h6 className="text-2xl">
-                All the past papers answers you need in one place!
-              </h6>
-            </div>
-            <div className="bg-pink-500 p-6 text-white">
-              <Bounce>
-                <h6 className="text-2xl">
-                  Need answers for more science subjects? Get them{" "}
-                  <a
-                    href="/resources/MCQ/csec/sciences"
-                    className="underline text-white"
-                  >
-                    here!
-                  </a>
-                </h6>
-              </Bounce>
-            </div>
-          </Carousel>
+          <img
+            src="https://www.stem.org.uk/sites/default/files/blog-images/A%20level%20mathematics.jpg"
+            style={{width: "100%"}}
+          />
         </MobileView>
 
         <section className="flex-1 full max-w-6xl px-4 mx-auto py-3">
           <br />
-          <h1 className="text-xl text-gray-700">Chemistry 2014 MC Answers</h1>
+          <h1 className="text-xl text-gray-700">Mathematics 2014 MC Answers</h1>
           <br />
           <p className="mt-0 mb-4 text-base text-gray-600">
-            These are the answers for the Chemistry 2014 exams.
+            These are the answers for the Mathematics 2014 exams.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
