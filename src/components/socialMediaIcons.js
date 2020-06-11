@@ -6,7 +6,7 @@ const SocialMediaIcons = () => {
       <ul className="flex items-start items-center items-end">
         <li className="flex-1">
           <a
-            href="https://www.instagram.com/cxcstudyguide/"
+            href="https://www.instagram.com/cxcguide/"
             target="_blank"
             rel="noreferrer"
             className="inline-block rounded text-white"

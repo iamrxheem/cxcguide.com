@@ -93,7 +93,10 @@ class Page extends React.Component {
             </Breadcrumb>
 
             <MobileView>
-              <img src="https://bowmanvillebaptist.org/wordpress/wp-content/uploads/2019/12/mailman-best-practices.jpg" />
+              <img
+                className="rounded"
+                src="https://bowmanvillebaptist.org/wordpress/wp-content/uploads/2019/12/mailman-best-practices.jpg"
+              />
 
               <br />
             </MobileView>

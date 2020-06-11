@@ -66,7 +66,7 @@ class Page extends React.Component {
               <Carousel
                 ssr={true}
                 responsive={responsive}
-                infinite={false}
+                infinite
                 arrows={true}
                 partialVisible={true}
                 swipeable={true}

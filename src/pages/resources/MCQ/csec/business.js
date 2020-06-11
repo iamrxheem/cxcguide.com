@@ -28,8 +28,8 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Resources" href="/resources" notLast />
-              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
-              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" />
+              <BreadcrumbItem title="MCQ" href="/resources/mcq" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/mcq/csec" />
             </Breadcrumb>
           </section>
 
@@ -79,7 +79,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/office-administration"
+                      href="/resources/mcq/csec/office-administration"
                       className="text-blue-500"
                     >
                       Office Administration
@@ -90,7 +90,7 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/resources/MCQ/csec/poa" className="text-blue-500">
+                    <a href="/resources/mcq/csec/poa" className="text-blue-500">
                       Principles of Accounts
                     </a>
                   </li>
@@ -99,7 +99,7 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/resources/MCQ/csec/pob" className="text-blue-500">
+                    <a href="/resources/mcq/csec/pob" className="text-blue-500">
                       Principles of Business
                     </a>
                   </li>
@@ -113,7 +113,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/economics"
+                      href="/resources/mcq/csec/economics"
                       className="text-blue-500"
                     >
                       Economics
@@ -126,7 +126,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/edpm"
+                      href="/resources/mcq/csec/edpm"
                       className="text-blue-500"
                     >
                       Electronic Document Preparation and Management

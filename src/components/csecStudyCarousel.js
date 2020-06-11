@@ -1,12 +1,15 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
+import {useSpring, animated} from "react-spring";
 
 const CsecStudyCarousel = () => {
+  const props = useSpring({opacity: 1, from: {opacity: 0}});
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: {max: 4000, min: 3000},
-      items: 1
+      items: 3
     },
     desktop: {
       breakpoint: {max: 3000, min: 1024},
@@ -26,32 +29,49 @@ const CsecStudyCarousel = () => {
     <>
       <>
         <Carousel
-          infitine={true}
           responsive={responsive}
-          ssr={true} // means to render carousel on server-side.
+          ssr={false} // means to render carousel on server-side.
           arrows={false}
           autoPlay={true}
-          autoPlaySpeed={4000}
+          infinite
+          autoPlaySpeed={6000}
           keyBoardControl={true}
           swipeable={true}
           draggable={true}
         >
-          <div className="block h-full w-full bg-indigo-500 text-white text-5xl text-center">
+          <div className="block h-full w-full bg-indigo-500 text-white text-center text-5xl text-center">
             <br />
-            <br />
-            <br />
+            <h6>
+              <animated.div style={props}>
+                Start studying from home
+              </animated.div>
+            </h6>
             <br />
           </div>
           <div className="block h-full w-full bg-green-500 text-white text-5xl text-center">
             <br />
-            <br />
-            <br />
+            <h6>
+              <animated.div style={props}>
+                Free online notes and exercises
+              </animated.div>
+            </h6>
             <br />
           </div>
           <div className="block h-full w-full bg-orange-500 text-white text-5xl text-center">
             <br />
+            <h6>
+              <animated.div style={props}>
+                Pass your exams like its nothing
+              </animated.div>
+            </h6>
             <br />
+          </div>
+          <div className="block h-full w-full bg-purple-500 text-white text-5xl text-center">
             <br />
+
+            <h6>
+              <animated.div style={props}>Done.</animated.div>
+            </h6>
             <br />
           </div>
         </Carousel>

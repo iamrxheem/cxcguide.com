@@ -44,11 +44,13 @@ function Header() {
             isExpanded ? `flow-root` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
+          <a
+            className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
+            href="/study"
+          >
+            Study
+          </a>
           {[
-            {
-              route: `/study`,
-              title: `Study`
-            },
             {
               route: `/quiz`,
               title: `Quiz`

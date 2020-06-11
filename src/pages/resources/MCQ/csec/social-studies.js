@@ -130,18 +130,6 @@ class Page extends React.Component {
                       2015
                     </a>
                   </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
-                      href="/resources/MCQ/csec/social-studies/2014"
-                      className="text-blue-500"
-                    >
-                      2014
-                    </a>
-                  </li>
                 </ul>
               </div>
 
@@ -153,18 +141,6 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/social-studies/2013"
-                      className="text-blue-500"
-                    >
-                      2013
-                    </a>
-                  </li>
-                  <li className="pb-5">
-                    <i
-                      style={{color: "#FF08D7"}}
-                      className="fas fa-angle-right mr-2"
-                    ></i>
-                    <a
                       href="/resources/MCQ/csec/social-studies/2014"
                       className="text-blue-500"
                     >
@@ -183,6 +159,7 @@ class Page extends React.Component {
                       2013
                     </a>
                   </li>
+
                   <li className="pb-5">
                     <i
                       style={{color: "#FF08D7"}}
