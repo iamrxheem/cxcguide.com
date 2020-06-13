@@ -27,8 +27,8 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Resources" href="/resources" notLast />
-              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
-              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" />
+              <BreadcrumbItem title="MCQ" href="/resources/mcq" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/mcq/csec" />
             </Breadcrumb>
           </section>
 
@@ -78,7 +78,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/english-a"
+                      href="/resources/mcq/csec/english-a"
                       className="text-blue-500"
                     >
                       English A
@@ -90,7 +90,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/english-b"
+                      href="/resources/mcq/csec/english-b"
                       className="text-blue-500"
                     >
                       English B
@@ -102,7 +102,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/french"
+                      href="/resources/mcq/csec/french"
                       className="text-blue-500"
                     >
                       French
@@ -118,7 +118,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/portuguese"
+                      href="/resources/mcq/csec/portuguese"
                       className="text-blue-500"
                     >
                       Portuguese
@@ -130,7 +130,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/spanish"
+                      href="/resources/mcq/csec/spanish"
                       className="text-blue-500"
                     >
                       Spanish

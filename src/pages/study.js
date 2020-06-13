@@ -9,7 +9,7 @@ import Breadcrumb from "../common/breadcrumb";
 import BreadcrumbItem from "../common/breadcrumbItem";
 import {MobileView} from "react-device-detect";
 
-function IndexPage() {
+function Page() {
   return (
     <Layout>
       <SEO
@@ -147,4 +147,4 @@ function IndexPage() {
   );
 }
 
-export default IndexPage;
+export default Page;

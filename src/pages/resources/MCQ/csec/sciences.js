@@ -27,8 +27,8 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Resources" href="/resources" notLast />
-              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
-              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" />
+              <BreadcrumbItem title="MCQ" href="/resources/mcq" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/mcq/csec" />
             </Breadcrumb>
           </section>
 
@@ -78,7 +78,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/agricultural-science"
+                      href="/resources/mcq/csec/agricultural-science"
                       className="text-blue-500"
                     >
                       Agricultural Science
@@ -90,7 +90,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/biology"
+                      href="/resources/mcq/csec/biology"
                       className="text-blue-500"
                     >
                       Biology
@@ -102,7 +102,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/chemistry"
+                      href="/resources/mcq/csec/chemistry"
                       className="text-blue-500"
                     >
                       Chemistry
@@ -113,7 +113,7 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/resources/MCQ/csec/hsb" className="text-blue-500">
+                    <a href="/resources/mcq/csec/hsb" className="text-blue-500">
                       Human & Social Biology
                     </a>
                   </li>
@@ -123,7 +123,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/integrated-science"
+                      href="/resources/mcq/csec/integrated-science"
                       className="text-blue-500"
                     >
                       Integrated Science
@@ -135,7 +135,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/physics"
+                      href="/resources/mcq/csec/physics"
                       className="text-blue-500"
                     >
                       Physics
@@ -147,7 +147,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/information-technology"
+                      href="/resources/mcq/csec/information-technology"
                       className="text-blue-500"
                     >
                       Information Technology
@@ -163,7 +163,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics"
+                      href="/resources/mcq/csec/mathematics"
                       className="text-blue-500"
                     >
                       Mathematics
@@ -175,7 +175,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/add-maths"
+                      href="/resources/mcq/csec/add-maths"
                       className="text-blue-500"
                     >
                       Additional Mathematics
@@ -187,7 +187,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/technical-drawing"
+                      href="/resources/mcq/csec/technical-drawing"
                       className="text-blue-500"
                     >
                       Technical Drawing
@@ -199,7 +199,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/industrial-technology"
+                      href="/resources/mcq/csec/industrial-technology"
                       className="text-blue-500"
                     >
                       Industrial Technology
@@ -210,7 +210,7 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/resources/MCQ/csec/pe" className="text-blue-500">
+                    <a href="/resources/mcq/csec/pe" className="text-blue-500">
                       Physical Education and Sport
                     </a>
                   </li>

@@ -27,8 +27,8 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Resources" href="/resources" notLast />
-              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
-              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" />
+              <BreadcrumbItem title="MCQ" href="/resources/mcq" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/mcq/csec" />
             </Breadcrumb>
           </section>
 
@@ -78,7 +78,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/caribbean-history"
+                      href="/resources/mcq/csec/caribbean-history"
                       className="text-blue-500"
                     >
                       Caribbean History
@@ -90,7 +90,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography"
+                      href="/resources/mcq/csec/geography"
                       className="text-blue-500"
                     >
                       Geography
@@ -102,7 +102,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/home-economics"
+                      href="/resources/mcq/csec/home-economics"
                       className="text-blue-500"
                     >
                       Home Economics
@@ -114,7 +114,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/music"
+                      href="/resources/mcq/csec/music"
                       className="text-blue-500"
                     >
                       Music
@@ -130,7 +130,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/social-studies"
+                      href="/resources/mcq/csec/social-studies"
                       className="text-blue-500"
                     >
                       Social Studies
@@ -142,7 +142,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/theatre-arts"
+                      href="/resources/mcq/csec/theatre-arts"
                       className="text-blue-500"
                     >
                       Theatre Arts
@@ -154,7 +154,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/visual-arts"
+                      href="/resources/mcq/csec/visual-arts"
                       className="text-blue-500"
                     >
                       Visual Arts
@@ -166,7 +166,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/religious-education"
+                      href="/resources/mcq/csec/religious-education"
                       className="text-blue-500"
                     >
                       Religious Education

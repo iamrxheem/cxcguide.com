@@ -21,7 +21,7 @@ class Page extends React.Component {
             keywords={[
               `csec`,
               `Mathematics`,
-
+              `maths`,
               `mc`,
               `mcq`,
               `cxc answers`,
@@ -43,15 +43,15 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="..." href="/resources" />
-              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
-              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" notLast />
+              <BreadcrumbItem title="MCQ" href="/resources/mcq" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/mcq/csec" notLast />
               <BreadcrumbItem title="Mathematics" />
             </Breadcrumb>
 
             <MobileView>
               <img
                 className="rounded"
-                src="https://lh3.googleusercontent.com/proxy/C5r4Mffbyn4mZa9DK8Tqkz8AnTznQdpN_fCAj4hMkhcDmBkHJAdfRXItX6w7j4qLXqYH5TUjKT5j4tiA_Si7c0k8SnP-1x_yx5bCT_dGk7g4oVHlj8T-UolFVLBIea8NmDiCd-MyNEzb"
+                src="https://lh3.googleusercontent.com/proxy/qvaDHvruVS2eMahagA3Kq5uyjEsFewUOiUXZ60pK3TLAj3xoEhuLhXv05kJDkAHsregclnB8xIxj8UJ2BiIFxYfKBIMYnfaa8Q_pEOJsmp06LAmwRQNts2gFIPA"
                 style={{width: "100%"}}
               />
             </MobileView>
@@ -76,7 +76,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2019"
+                      href="/resources/mcq/csec/mathematics/2019"
                       className="text-blue-500"
                     >
                       2019
@@ -88,7 +88,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2018"
+                      href="/resources/mcq/csec/mathematics/2018"
                       className="text-blue-500"
                     >
                       2018
@@ -100,7 +100,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2017"
+                      href="/resources/mcq/csec/mathematics/2017"
                       className="text-blue-500"
                     >
                       2017
@@ -112,7 +112,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2016"
+                      href="/resources/mcq/csec/mathematics/2016"
                       className="text-blue-500"
                     >
                       2016
@@ -124,7 +124,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2015"
+                      href="/resources/mcq/csec/mathematics/2015"
                       className="text-blue-500"
                     >
                       2015
@@ -136,7 +136,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2014"
+                      href="/resources/mcq/csec/mathematics/2014"
                       className="text-blue-500"
                     >
                       2014
@@ -153,7 +153,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2013"
+                      href="/resources/mcq/csec/mathematics/2013"
                       className="text-blue-500"
                     >
                       2013
@@ -165,7 +165,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2014"
+                      href="/resources/mcq/csec/mathematics/2014"
                       className="text-blue-500"
                     >
                       2014
@@ -177,7 +177,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2013"
+                      href="/resources/mcq/csec/mathematics/2013"
                       className="text-blue-500"
                     >
                       2013
@@ -189,7 +189,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2012"
+                      href="/resources/mcq/csec/mathematics/2012"
                       className="text-blue-500"
                     >
                       2012
@@ -201,7 +201,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2011"
+                      href="/resources/mcq/csec/mathematics/2011"
                       className="text-blue-500"
                     >
                       2011
@@ -213,7 +213,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics/2010"
+                      href="/resources/mcq/csec/mathematics/2010"
                       className="text-blue-500"
                     >
                       2010

@@ -45,15 +45,15 @@ const Page = () => {
         <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
           <Breadcrumb>
             <BreadcrumbItem title="..." href="/resources" />
-            <BreadcrumbItem title="..." href="/resources/MCQ" notLast />
-            <BreadcrumbItem title="..." href="/resources/MCQ/csec" notLast />
+            <BreadcrumbItem title="..." href="/resources/mcq" notLast />
+            <BreadcrumbItem title="..." href="/resources/mcq/csec" notLast />
             <BreadcrumbItem
-              href="/resources/MCQ/csec/mathematics"
+              href="/resources/mcq/csec/mathematics"
               title="Mathematics"
               notLast
             />
 
-            <BreadcrumbItem title="2018" href="/resources/MCQ/csec" />
+            <BreadcrumbItem title="2018" href="/resources/mcq/csec" />
           </Breadcrumb>
         </section>
 

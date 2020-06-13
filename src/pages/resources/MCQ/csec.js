@@ -42,8 +42,8 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Resources" href="/resources" notLast />
-              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
-              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" />
+              <BreadcrumbItem title="MCQ" href="/resources/mcq" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/mcq/csec" />
             </Breadcrumb>
           </section>
 
@@ -94,7 +94,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/chemistry"
+                      href="/resources/mcq/csec/chemistry"
                       className="text-blue-500"
                     >
                       Chemistry
@@ -106,7 +106,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/mathematics"
+                      href="/resources/mcq/csec/mathematics"
                       className="text-blue-500"
                     >
                       Mathematics
@@ -118,7 +118,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/english-a"
+                      href="/resources/mcq/csec/english-a"
                       className="text-blue-500"
                     >
                       English A
@@ -129,7 +129,7 @@ class Page extends React.Component {
                       style={{color: "#FF08D7"}}
                       className="fas fa-angle-right mr-2"
                     ></i>
-                    <a href="/resources/MCQ/csec/poa" className="text-blue-500">
+                    <a href="/resources/mcq/csec/poa" className="text-blue-500">
                       Principles of Accounts
                     </a>
                   </li>
@@ -143,7 +143,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography"
+                      href="/resources/mcq/csec/geography"
                       className="text-blue-500"
                     >
                       Geography
@@ -155,7 +155,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/social-studies"
+                      href="/resources/mcq/csec/social-studies"
                       className="text-blue-500"
                     >
                       Social Studies
@@ -167,7 +167,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/information-technology"
+                      href="/resources/mcq/csec/information-technology"
                       className="text-blue-500"
                     >
                       Information Technology
@@ -179,7 +179,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/agricultural-science"
+                      href="/resources/mcq/csec/agricultural-science"
                       className="text-blue-500"
                     >
                       Agricultural Science

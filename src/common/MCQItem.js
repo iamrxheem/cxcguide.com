@@ -83,6 +83,7 @@ class MCQItem extends React.Component {
               <li>{this.props.listOptionOne}</li>
               <li>{this.props.listOptionTwo}</li>
               <li>{this.props.listOptionThree}</li>
+              <li>{this.props.listOptionFour}</li>
             </ul>
             <br />
           </CustomView>
@@ -102,8 +103,8 @@ class MCQItem extends React.Component {
                       this.changeAnswer("a");
                     }}
                   />
-                  <label className="flex items-center cursor-pointer text-base">
-                    <span className="inline-block mr-2 rounded-full border border-grey flex-no-shrink"></span>
+                  <label className="flex items-center cursor-pointer text-base  text-gray-700 ">
+                    <span className="inline-block mr-2 rounded-full border text-gray-700 border-grey flex-no-shrink"></span>
                     {this.props.optionOne}
                   </label>
                 </div>
@@ -120,7 +121,7 @@ class MCQItem extends React.Component {
                       this.changeAnswer("b");
                     }}
                   />
-                  <label className="flex items-center cursor-pointer text-base">
+                  <label className="  text-gray-700  flex items-center cursor-pointer text-base">
                     <span className="inline-block mr-2 rounded-full border border-grey flex-no-shrink"></span>
                     {this.props.optionTwo}
                   </label>
@@ -138,7 +139,7 @@ class MCQItem extends React.Component {
                       this.changeAnswer("c");
                     }}
                   />
-                  <label className="flex items-center cursor-pointer text-base">
+                  <label className=" text-gray-700 flex items-center cursor-pointer text-base">
                     <span className="inline-block mr-2 rounded-full border border-grey flex-no-shrink"></span>
                     {this.props.optionThree}
                   </label>
@@ -156,7 +157,7 @@ class MCQItem extends React.Component {
                       this.changeAnswer("d");
                     }}
                   />
-                  <label className="flex items-center cursor-pointer text-base">
+                  <label className=" text-gray-700 flex items-center cursor-pointer text-base">
                     <span className="inline-block mr-2 rounded-full border border-grey flex-no-shrink"></span>
                     {this.props.optionFour}
                   </label>

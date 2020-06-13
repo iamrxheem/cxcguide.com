@@ -50,7 +50,7 @@ function Page() {
           {/* CSEC MCQ Answers */}
           <div className="text-center">
             <Zoom>
-              <a href="/resources/MCQ/csec">
+              <a href="/resources/mcq/csec">
                 <img
                   style={{margin: "auto", width: "150px"}}
                   className="object-contain sm:object-cover md:object-fill lg:object-none xl:object-scale-down"
@@ -67,7 +67,7 @@ function Page() {
             <br />
 
             <a
-              href="/resources/MCQ/csec"
+              href="/resources/mcq/csec"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
               View all
@@ -83,7 +83,7 @@ function Page() {
             </MobileView>
 
             <Bounce>
-              <a href="/resources/MCQ/cape">
+              <a href="/resources/mcq/cape">
                 <img
                   style={{margin: "auto", width: "150px"}}
                   className="object-contain sm:object-cover md:object-fill lg:object-none xl:object-scale-down"
@@ -100,7 +100,7 @@ function Page() {
             <br />
 
             <a
-              href="/resources/MCQ/cape"
+              href="/resources/mcq/cape"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
               View all

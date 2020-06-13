@@ -68,15 +68,15 @@ const Page = () => {
         <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
           <Breadcrumb>
             <BreadcrumbItem title="..." href="/resources" />
-            <BreadcrumbItem title="..." href="/resources/MCQ" notLast />
-            <BreadcrumbItem title="..." href="/resources/MCQ/csec" notLast />
+            <BreadcrumbItem title="..." href="/resources/mcq" notLast />
+            <BreadcrumbItem title="..." href="/resources/mcq/csec" notLast />
             <BreadcrumbItem
-              href="/resources/MCQ/csec/english-b"
+              href="/resources/mcq/csec/english-b"
               title="English B"
               notLast
             />
 
-            <BreadcrumbItem title="2017" href="/resources/MCQ/csec" />
+            <BreadcrumbItem title="2017" href="/resources/mcq/csec" />
           </Breadcrumb>
         </section>
 
@@ -103,7 +103,7 @@ const Page = () => {
                 <h6 className="text-2xl">
                   Need answers for more science subjects? Get them{" "}
                   <a
-                    href="/resources/MCQ/csec/sciences"
+                    href="/resources/mcq/csec/sciences"
                     className="underline text-white"
                   >
                     here!

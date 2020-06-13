@@ -43,8 +43,8 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="..." href="/resources" />
-              <BreadcrumbItem title="MCQ" href="/resources/MCQ" notLast />
-              <BreadcrumbItem title="CSEC" href="/resources/MCQ/csec" notLast />
+              <BreadcrumbItem title="MCQ" href="/resources/mcq" notLast />
+              <BreadcrumbItem title="CSEC" href="/resources/mcq/csec" notLast />
               <BreadcrumbItem title="Geography" />
             </Breadcrumb>
 
@@ -74,7 +74,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2019"
+                      href="/resources/mcq/csec/geography/2019"
                       className="text-blue-500"
                     >
                       2019
@@ -86,7 +86,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2018"
+                      href="/resources/mcq/csec/geography/2018"
                       className="text-blue-500"
                     >
                       2018
@@ -98,7 +98,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2017"
+                      href="/resources/mcq/csec/geography/2017"
                       className="text-blue-500"
                     >
                       2017
@@ -110,7 +110,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2016"
+                      href="/resources/mcq/csec/geography/2016"
                       className="text-blue-500"
                     >
                       2016
@@ -122,7 +122,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2015"
+                      href="/resources/mcq/csec/geography/2015"
                       className="text-blue-500"
                     >
                       2015
@@ -134,7 +134,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2014"
+                      href="/resources/mcq/csec/geography/2014"
                       className="text-blue-500"
                     >
                       2014
@@ -151,7 +151,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2013"
+                      href="/resources/mcq/csec/geography/2013"
                       className="text-blue-500"
                     >
                       2013
@@ -163,7 +163,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2014"
+                      href="/resources/mcq/csec/geography/2014"
                       className="text-blue-500"
                     >
                       2014
@@ -175,7 +175,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2013"
+                      href="/resources/mcq/csec/geography/2013"
                       className="text-blue-500"
                     >
                       2013
@@ -187,7 +187,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2012"
+                      href="/resources/mcq/csec/geography/2012"
                       className="text-blue-500"
                     >
                       2012
@@ -199,7 +199,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2011"
+                      href="/resources/mcq/csec/geography/2011"
                       className="text-blue-500"
                     >
                       2011
@@ -211,7 +211,7 @@ class Page extends React.Component {
                       className="fas fa-angle-right mr-2"
                     ></i>
                     <a
-                      href="/resources/MCQ/csec/geography/2010"
+                      href="/resources/mcq/csec/geography/2010"
                       className="text-blue-500"
                     >
                       2010

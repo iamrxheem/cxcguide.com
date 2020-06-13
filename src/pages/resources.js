@@ -127,7 +127,7 @@ function Page() {
 
             <br />
             <a
-              href="/resources/MCQ"
+              href="/resources/mcq"
               className="bg-transparent hover:bg-purple-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
             >
               <small className="text-white text-small">GET THEM</small>
