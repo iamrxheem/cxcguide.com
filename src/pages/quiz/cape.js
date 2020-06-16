@@ -113,7 +113,7 @@ function Page() {
                   style={{color: "#FF08D7"}}
                 ></i>
                 <a
-                  href="/quiz/cape/caribbean-studies"
+                  href="/quiz/cape/unit-2/caribbean-studies"
                   className="text-blue-500"
                 >
                   Caribbean Studies
