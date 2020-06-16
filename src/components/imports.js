@@ -48,6 +48,10 @@ const Imports = () => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
+        <script
+          src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
+          data-sdk-integration-source="button-factory"
+        ></script>
       </Helmet>
     </>
   );

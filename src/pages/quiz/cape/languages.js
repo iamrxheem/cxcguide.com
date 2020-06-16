@@ -72,221 +72,86 @@ class Page extends React.Component {
 
             <h6 className="text-xl">Languages</h6>
             <br />
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-              <div>
-                <ul className="ml-5">
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
+            <div>
+              <ul className="ml-5">
+                {/* Item */}
+                <li className="pb-5">
+                  <Collapsible
+                    trigger={
+                      <>
+                        <i
+                          className="fas fa-angle-right mr-2"
+                          style={{color: "#FF08D7"}}
+                        ></i>
+                        <a className="text-blue-500">French</a>
+                      </>
+                    }
+                  >
+                    <ul className=" ml-5">
+                      <li className="mt-4 ml-5">
+                        <i className="fas fa-caret-right mr-2 text-teal-600"></i>
+                        <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      </li>
+                      <li className="mt-4 ml-5">
+                        <i className="fas fa-caret-right mr-2 text-teal-600"></i>
+                        <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      </li>
+                    </ul>
+                  </Collapsible>
+                </li>
 
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
+                {/* Item */}
+                <li className="pb-5">
+                  <Collapsible
+                    trigger={
+                      <>
+                        <i
+                          className="fas fa-angle-right mr-2"
+                          style={{color: "#FF08D7"}}
+                        ></i>
+                        <a className="text-blue-500">Literatures in English</a>
+                      </>
+                    }
+                  >
+                    <ul className=" ml-5">
+                      <li className="mt-4 ml-5">
+                        <i className="fas fa-caret-right mr-2 text-teal-600"></i>
+                        <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      </li>
+                      <li className="mt-4 ml-5">
+                        <i className="fas fa-caret-right mr-2 text-teal-600"></i>
+                        <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      </li>
+                    </ul>
+                  </Collapsible>
+                </li>
 
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
-
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <ul className="ml-5">
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
-
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
-
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
-
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
-                </ul>
-              </div>
+                {/* Item */}
+                <li className="pb-5">
+                  <Collapsible
+                    trigger={
+                      <>
+                        <i
+                          className="fas fa-angle-right mr-2"
+                          style={{color: "#FF08D7"}}
+                        ></i>
+                        <a className="text-blue-500">Spanish</a>
+                      </>
+                    }
+                  >
+                    <ul className=" ml-5">
+                      <li className="mt-4 ml-5">
+                        <i className="fas fa-caret-right mr-2 text-teal-600"></i>
+                        <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      </li>
+                      <li className="mt-4 ml-5">
+                        <i className="fas fa-caret-right mr-2 text-teal-600"></i>
+                        <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      </li>
+                    </ul>
+                  </Collapsible>
+                </li>
+              </ul>
             </div>
           </section>
         </Layout>

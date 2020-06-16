@@ -61,6 +61,8 @@ function IndexPage() {
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb />
+
+        <div id="paypal-button-container"></div>
       </section>
 
       <br />

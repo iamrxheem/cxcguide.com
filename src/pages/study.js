@@ -7,7 +7,7 @@ import {Link} from "gatsby";
 // Common
 import Breadcrumb from "../common/breadcrumb";
 import BreadcrumbItem from "../common/breadcrumbItem";
-import {MobileView} from "react-device-detect";
+import {MobileView, isMobile} from "react-device-detect";
 
 function Page() {
   return (
@@ -86,7 +86,7 @@ function Page() {
 
         <br />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-          <div className="">
+          <div style={{margin: isMobile ? "auto" : ""}}>
             <figure>
               <Link to="/study/csec">
                 <img
@@ -104,8 +104,12 @@ function Page() {
 
             <br />
             <a
+              style={{
+                width: isMobile ? "100%" : "",
+                display: isMobile ? "block" : ""
+              }}
               href="/study/csec"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
             >
               Start Studying
             </a>
@@ -134,12 +138,16 @@ function Page() {
             </p>
 
             <br />
-            <Link
-              to="/study/cape"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            <a
+              style={{
+                width: isMobile ? "100%" : "",
+                display: isMobile ? "block" : ""
+              }}
+              href="/study/cape"
+              className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
             >
               Start Studying
-            </Link>
+            </a>
           </div>
         </div>
       </section>

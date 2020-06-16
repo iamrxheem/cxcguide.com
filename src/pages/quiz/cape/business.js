@@ -84,7 +84,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Accounting</a>
                         </>
                       }
                     >
@@ -110,7 +110,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Economics</a>
                         </>
                       }
                     >
@@ -136,7 +136,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Entrepreneurship</a>
                         </>
                       }
                     >
@@ -162,7 +162,9 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">
+                            Financial Services Studies
+                          </a>
                         </>
                       }
                     >
@@ -191,7 +193,9 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">
+                            Logistics and Supply Chain
+                          </a>
                         </>
                       }
                     >
@@ -217,7 +221,9 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">
+                            Management of Business
+                          </a>
                         </>
                       }
                     >
@@ -243,33 +249,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
-                        </>
-                      }
-                    >
-                      <ul className=" ml-5">
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
-                        </li>
-                        <li className="mt-4 ml-5">
-                          <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
-                        </li>
-                      </ul>
-                    </Collapsible>
-                  </li>
-
-                  {/* Item */}
-                  <li className="pb-5">
-                    <Collapsible
-                      trigger={
-                        <>
-                          <i
-                            className="fas fa-angle-right mr-2"
-                            style={{color: "#FF08D7"}}
-                          ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Tourism</a>
                         </>
                       }
                     >

@@ -84,7 +84,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Art and Design</a>
                         </>
                       }
                     >
@@ -110,7 +110,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Caribbean Studies</a>
                         </>
                       }
                     >
@@ -136,7 +136,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Communication Studies</a>
                         </>
                       }
                     >
@@ -162,7 +162,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Food and Nutrition</a>
                         </>
                       }
                     >
@@ -191,7 +191,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Geography</a>
                         </>
                       }
                     >
@@ -217,7 +217,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Law</a>
                         </>
                       }
                     >
@@ -243,7 +243,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Performing Arts</a>
                         </>
                       }
                     >
@@ -269,7 +269,7 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">{}</a>
+                          <a className="text-blue-500">Sociology</a>
                         </>
                       }
                     >
