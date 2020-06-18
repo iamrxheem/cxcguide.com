@@ -1,19 +1,46 @@
 import React from "react";
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Breadcrumb from "../common/breadcrumb";
-import PastPaperSlider from "../components/pastPaperSlider";
+import Layout from "../../../components/layout";
+import SEO from "../../../components/seo";
 
-function IndexPage() {
+// Common
+import Breadcrumb from "../../../common/breadcrumb";
+import BreadcrumbItem from "../../../common/breadcrumbItem";
+
+function Page() {
   return (
     <Layout>
       <SEO
         keywords={[
+          `store`,
+          `buy`,
+          `buy cxc past papers`,
+          `csec`,
+          `cape`,
+          `purchase`,
+          `purchase past papers`,
+          `tshirts`,
+          `tspring`,
+          `merch`,
+          `csec`,
+          `pob`,
+          `Principles of Business`,
+          `mc`,
+          `mcq`,
+          `cxc answers`,
+          `cxc paper 1 answers`,
+          `mcq answers`,
+          `past papers`,
+          `csec past paper answers`,
+          `cxc past papers`,
+          `paperbin`,
+          `past paperbin`,
+          `cxcguide`,
           `cxc study guide`,
           `cxc past papers`,
           `csec past papers`,
           `past papers`,
+          `store`,
           `cxc mathematics study guide`,
           `cxc english a study guide`,
           `cxc spanich study guide`,
@@ -55,24 +82,20 @@ function IndexPage() {
           `pastpaperbin.com`,
           `paperbin.xyz`
         ]}
-        title="CSEC and CAPE Lesson Plans, Study Guides and Past Paper Solutions"
-        description="CXC Study Guide is the perfect free online study guide for all CSEC and CAPE subjects with study notes and qizzes, and past paper answers"
+        title="CSEC Guides and Textbooks"
+        description="Support us, and support your local authors. Buy our merchandise, premium guides to help us bring more lessons to you."
       />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
-        <Breadcrumb />
-
-        <div id="paypal-button-container">
-          <a className="text-blue-500 underline" href="/store/afl/csec">
-            This link
-          </a>
-        </div>
+        <Breadcrumb>
+          <BreadcrumbItem title="Store" href="/store" notLast />
+          <BreadcrumbItem title="CSEC Guides & Books" />
+        </Breadcrumb>
       </section>
-
       <br />
-      <PastPaperSlider />
+      <br />
     </Layout>
   );
 }
 
-export default IndexPage;
+export default Page;

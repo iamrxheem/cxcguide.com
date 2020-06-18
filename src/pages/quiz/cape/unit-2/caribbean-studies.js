@@ -143,12 +143,102 @@ class Page extends React.Component {
 
               {/* Question */}
               <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
+                question="Which of the following family types was introduced in the Caribbean by the East Indians?"
+                optionOne="Nuclear"
+                optionTwo="Neolocal"
+                optionThree="Extended"
+                optionFour="Matrifocal"
+                correctOption="c"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="'ICT' is a diriving force behind changes in industry. Whatt does ICT mean in this statement?"
+                optionOne="Internet Computer Transaction"
+                optionTwo="Internet Communication Transaction"
+                optionThree="Information and Computer Technology"
+                optionFour="Information and Communications Technologies"
+                correctOption="d"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="Which of the following types of development seeks to protect future generations?"
+                optionOne="Global"
+                optionTwo="Humane"
+                optionThree="Economic"
+                optionFour="Sustainable"
+                correctOption="d"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="Which of the following is considered an element of good governance?"
+                optionOne="Cronyism"
+                optionTwo="Popularity"
+                optionThree="Rule of law"
+                optionFour="Exclusiveness"
+                correctOption="c"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="The Rastafarian movement gained worldwide recognitioon MAINLY through"
+                optionOne="tourism"
+                optionTwo="reggae music"
+                optionThree="the use of marijuana"
+                optionFour="the Nyabinghi movement"
+                correctOption="b"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="In which of the following years was the World Trade Organization formed?"
+                optionOne="1795"
+                optionTwo="1885"
+                optionThree="1945"
+                optionFour="1995"
+                correctOption="d"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="One challenge faced by Caribbean countries in achievng integration is"
+                optionOne="insularity"
+                optionTwo="high levels of illiteracy"
+                optionThree="the impace of natural disasters"
+                optionFour="large number of indigenous peoples"
+                correctOption="a"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="Which of the following indicators of development is generated from information that is derived from an inequality survey?"
+                optionOne="The Gini Index"
+                optionTwo="The Age Dependancy Ratio"
+                optionThree="The International Credit Rating"
+                optionFour="The Human Development Index"
+                correctOption="a"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="Which of the following is a function of the mass media?"
+                optionOne="Promoting private sector interest"
+                optionTwo="Acting as an agent of the local government"
+                optionThree="Informing citizens of local and international affairs"
+                optionFour="Acting as a propaganda tool for local and foreign governments"
+                correctOption="c"
+              />
+
+              {/* Question */}
+              <MCQItem
+                question="Which institution, in the integration movement, preceded the Caribbean Community and Common Market?"
+                optionOne="Association of Caribbean States"
+                optionTwo="Caribbean Free Trade Association"
+                optionThree="CARICOM Single Market and Economy"
+                optionFour="Organisation of Eastern Caribbean States"
+                correctOption="a"
               />
 
               {/* Question */}
@@ -323,122 +413,22 @@ class Page extends React.Component {
 
               {/* Question */}
               <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
+                question="In research, the process of identifying a problem to be investigated involves"
+                optionOne="interpreting data"
+                optionTwo="formulating a feasible topic"
+                optionThree="conducting an archival search"
+                optionFour="making inferences from statistical data"
+                correctOption="b"
               />
 
               {/* Question */}
               <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
-              />
-
-              {/* Question */}
-              <MCQItem
-                question=""
-                optionOne=""
-                optionTwo=""
-                optionThree=""
-                optionFour=""
-                correctOption=""
+                question="In which of the following groups of sampling does purpositive sampling fail?"
+                optionOne="Random"
+                optionTwo="Probability"
+                optionThree="Convenient"
+                optionFour="Non-probability"
+                correctOption="d"
               />
             </MCQ>
           </section>

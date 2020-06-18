@@ -69,7 +69,7 @@ function ContactPage() {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.instagram.com/cxcstudyguide/"
+                  href="https://www.instagram.com/cxcguide/"
                 >
                   <i
                     style={{color: "#8a3ab9"}}

@@ -28,6 +28,10 @@ const Imports = () => {
         <script src="https://cxcguide.pushengage.com/service-worker.js?ver=2.2.0"></script>
         <script async src="//static.getclicky.com/js"></script>
         <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+        />
+        <link
           href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
           rel="stylesheet"
           type="text/css"
