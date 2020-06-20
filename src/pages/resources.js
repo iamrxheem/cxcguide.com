@@ -67,7 +67,7 @@ function Page() {
             `pastpaperbin.com`,
             `paperbin.xyz`
           ]}
-          title="CXC Past Paper Answers & Guides"
+          title="CXC Past Paper Answers and Guides"
           description="Get free CXC past papers for CSEC and CAPE with answer guides and explanations."
         />
 

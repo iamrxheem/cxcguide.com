@@ -69,7 +69,7 @@ function Page() {
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb>
-          <BreadcrumbItem title="Study" href="/study" />
+          <BreadcrumbItem title="Start Studying" href="/study" />
         </Breadcrumb>
 
         <MobileView>

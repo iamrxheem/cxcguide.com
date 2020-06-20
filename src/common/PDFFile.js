@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 import FA from "react-fontawesome";
 
 const PDFFile = props => (
-  <a href={props.href} download>
+  <a
+    href="https://www.instagram.com/cxcguide/"
+    target="_blank"
+    rel="noreferrer"
+  >
     <FA name="file-pdf" style={{color: "#f00"}} />
     <span
       className="text-blue-700 hover:underline"

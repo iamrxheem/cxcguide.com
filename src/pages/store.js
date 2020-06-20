@@ -85,7 +85,7 @@ function Page() {
           `paperbin.xyz`
         ]}
         title="Store"
-        description="Support us, and support your local authors. Buy our merchandise, premium guides to help us bring more lessons to you."
+        description="Support us, and support your local authors. Buy our merchandise, premium guides to help us bring more lessons to you and other students."
       />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">

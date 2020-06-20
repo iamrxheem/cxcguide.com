@@ -7,10 +7,14 @@ import SEO from "../components/seo";
 import Breadcrumb from "../common/breadcrumb";
 import BreadcrumbItem from "../common/breadcrumbItem";
 
-function ContactPage() {
+function Page() {
   return (
     <Layout>
-      <SEO keywords={[``, ``, ``, ``]} title="Contact Us" description="" />
+      <SEO
+        keywords={[`cxc`, `privacy policy`, `cxc`, `the csg team`]}
+        title="Privacy Policy"
+        description="This notes describes our privacy policy."
+      />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb>
@@ -336,4 +340,4 @@ function ContactPage() {
   );
 }
 
-export default ContactPage;
+export default Page;

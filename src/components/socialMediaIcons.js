@@ -29,7 +29,7 @@ const SocialMediaIcons = () => {
         </li>
         <li className="flex-1">
           <a
-            href="/"
+            href="https://www.facebook.com/thecgsteam/"
             target="_blank"
             rel="noreferrer"
             className="inline-block rounded text-white"
@@ -39,7 +39,7 @@ const SocialMediaIcons = () => {
         </li>
         <li className="flex-1">
           <a
-            href="/"
+            href="https://twitter.com/thecsgteam"
             target="_blank"
             rel="noreferrer"
             className="inline-block rounded text-white"
