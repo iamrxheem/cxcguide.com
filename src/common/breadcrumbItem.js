@@ -1,19 +1,30 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Link} from "gatsby";
 
 const BreadcrumbItem = props => {
   return (
     <>
-      <li>
+      <div>
         <span className="mx-2 text-gray-600">/</span>
-      </li>
-      <li>
-        <a
-          href={props.href}
+      </div>
+      <li
+        itemProp="itemListElement"
+        itemScope
+        itemType="http://schema.org/ListItem"
+      >
+        <Link
+          to={props.notLast ? props.href : ""}
           className={props.notLast ? "text-blue-400" : "text-gray-600"}
         >
-          {props.title}
-        </a>
+          <span
+            itemProp="name"
+            className={props.notLast ? "text-blue-400" : ""}
+          >
+            {props.title}
+          </span>
+        </Link>
+        <meta itemProp="position" content="" />
       </li>
     </>
   );

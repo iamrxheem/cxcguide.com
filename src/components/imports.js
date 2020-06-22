@@ -56,6 +56,8 @@ const Imports = () => {
           src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
           data-sdk-integration-source="button-factory"
         ></script>
+        <meta name="twitter:site" content="@thecsgteam" />
+        <meta name="twitter:image:alt" content="Website logo or other image" />
       </Helmet>
     </>
   );

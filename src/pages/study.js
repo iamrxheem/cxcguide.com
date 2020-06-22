@@ -23,7 +23,7 @@ function Page() {
           `csec past papers`,
           `past papers`,
           `cxc mathematics study guide`,
-          `cxc english a study guide`,
+          `cxc english Link study guide`,
           `cxc spanich study guide`,
           `cxc english b study guide`,
           `cxc free study guide`,
@@ -69,7 +69,7 @@ function Page() {
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb>
-          <BreadcrumbItem title="Start Studying" href="/study" />
+          <BreadcrumbItem title="Start Studying" to="/study" />
         </Breadcrumb>
 
         <MobileView>
@@ -103,16 +103,16 @@ function Page() {
             </p>
 
             <br />
-            <a
+            <Link
               style={{
                 width: isMobile ? "100%" : "",
                 display: isMobile ? "block" : ""
               }}
-              href="/study/csec"
+              to="/study/csec"
               className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
             >
               Start Studying
-            </a>
+            </Link>
           </div>
 
           <div className="">
@@ -122,12 +122,12 @@ function Page() {
             </MobileView>
 
             <figure>
-              <a href="/study/cape">
+              <Link to="/study/cape">
                 <img
                   className=""
                   src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/cape.png"
                 />
-              </a>
+              </Link>
             </figure>
 
             <br />
@@ -138,16 +138,16 @@ function Page() {
             </p>
 
             <br />
-            <a
+            <Link
               style={{
                 width: isMobile ? "100%" : "",
                 display: isMobile ? "block" : ""
               }}
-              href="/study/cape"
+              to="/study/cape"
               className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
             >
               Start Studying
-            </a>
+            </Link>
           </div>
         </div>
       </section>

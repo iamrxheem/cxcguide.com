@@ -24,6 +24,12 @@ const MobileMenu = () => {
 
         <nav className="sm:inline-block float-right">
           <a
+            href="/discord"
+            className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block mr-6"
+          >
+            <i style={{color: "#738ADB"}} className="fab fa-discord fa-lg" />
+          </a>
+          <a
             href="https://www.instagram.com/cxcguide/"
             target="_blank"
             rel="noreferrer"

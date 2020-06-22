@@ -5,10 +5,8 @@ import SEO from "../../components/seo";
 import CsecStudyCarousel from "../../components/csecStudyCarousel";
 import CSECStudyNavigation from "../../components/csecStudyNavigation";
 
-AflTextbookCard;
-
 // Common
-import AflTextbookCard from "../../common/aflTextbookCard";
+// import AflTextbookCard from "../../common/aflTextbookCard";
 import Breadcrumb from "../../common/breadcrumb";
 import BreadcrumbItem from "../../common/breadcrumbItem";
 import SubjectPreview from "../../common/subjectPreview";
@@ -100,224 +98,63 @@ class Page extends React.Component {
                   Most Popular
                 </h1>
                 <br />
+                <p>
+                  Most popular subjects rated by students - choose an subject to
+                  begin.
+                </p>
 
+                <br />
                 <ul className="ml-5">
                   <SubjectPreview
                     ready={false}
                     title="English A"
                     href="/study/csec/english-a"
-                    description=""
+                    description="As a compulsolry subjects, "
+                    imgSrc="https://elearningindustry.com/wp-content/uploads/2017/04/elearning-writing-3-courses-to-help-you-improve-your-writing-skills.png"
                   />
                   <SubjectPreview
                     ready={false}
                     title="English B"
                     href="/study/csec/english-b"
                     description=""
+                    imgSrc="https://smarthistory.org/wp-content/uploads/2020/04/BoltofLighteningSm-scaled.jpg"
                   />
                   <SubjectPreview
                     ready={false}
                     title="Mathematics"
                     href="/study/csec/mathematics"
                     description=""
+                    imgSrc="https://www.stem.org.uk/sites/default/files/blog-images/A%20level%20mathematics.jpg"
                   />
                   <SubjectPreview
                     ready={false}
                     title="Social Studies"
                     href="/study/csec/social-studies"
                     description=""
+                    imgSrc="https://qph.fs.quoracdn.net/main-qimg-fbb16f9b23357e6ec796e8090ed4e8db"
                   />
                   <SubjectPreview
                     ready={false}
                     title="Biology"
                     href="/study/csec/biology"
                     description=""
+                    imgSrc="https://s3.amazonaws.com/tinycards/image/0d00052f6a57f34ee429733e624989c3"
                   />
                   <SubjectPreview
                     ready={false}
                     title="Geography"
                     href="/study/csec/geography"
                     description=""
+                    imgSrc="https://study.com/cimages/videopreview/videopreview-full/p3c2j8y73a.jpg"
                   />
                   <SubjectPreview
                     ready={false}
                     title="Chemistry"
                     href="/study/csec/chemistry"
                     description=""
+                    imgSrc="https://d1ymz67w5raq8g.cloudfront.net/Pictures/2000x2000fit/9/2/3/503923_shutterstock_435818803_497153.jpg"
                   />
                 </ul>
-
-                <br />
-                <br />
-                <h1 className="text-xl text-purple-700 font-bold">
-                  Our Recommended Textbooks
-                </h1>
-
-                <br />
-                <div className="bulma-tabs">
-                  <ul>
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/510-emPJHML.jpg"
-                      title="CSEC Principles of Accounts Multiple Choice Practice"
-                      href="https://amzn.to/2N7m76D"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/41b82W5ShoL.jpg"
-                      title="Collins CSEC Biology – CSEC Biology Multiple Choice Practice"
-                      href="https://amzn.to/37F96KV"
-                      price="$12.21"
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51-jkxsDlZL.jpg"
-                      title="Concise Revision Course  English A - a Concise Revision Course for CSEC®"
-                      href="https://www.amazon.com/gp/product/0008208131/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0008208131&linkId=78e72fa6156c50d6e212d89acb9d2bd8"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51iepff-f7L.jpg"
-                      title="CSEC Principles of Business Multiple Choice Practice"
-                      href="https://amzn.to/2BiHBeh"
-                      price="$16.51"
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51IoEiJ85RL.jpg"
-                      title="Multiple Choice Practice Tests in Mathematics for CXC {{ MULTIPLE CHOICE PRACTICE TESTS IN MATHEMATICS FOR CXC }} By Ali, Fayad W. ( AUTHOR) Aug-04-2000"
-                      href="https://amzn.to/2NaJg8l"
-                      price="$31.12"
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/41Y6jEhqdLL.jpg"
-                      title="Collins CSEC Chemistry – CSEC Chemistry Multiple Choice Practice"
-                      href="https://amzn.to/3hBKVBL"
-                      price="$10.99"
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51wKrA8405L.jpg"
-                      title="CSEC Human and Social Biology Multiple Choice Practice"
-                      href="https://amzn.to/3eea5nM"
-                      price="$15.19"
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/41h3Dt2hqJL.jpg"
-                      title="Multiple Choice Questions for CXC Biology"
-                      href="https://amzn.to/30RVGde"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/41b+ZF1LhsL.jpg"
-                      title="Collins CSEC Physics - CSEC Physics Multiple Choice Practice"
-                      href="https://amzn.to/30U0FtS"
-                      price="$10.95"
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/418xFiaiwSL.jpg"
-                      title="CSEC FOCUS POA- Multiple Choice Questions & Answers"
-                      href="https://amzn.to/3d8TAIB"
-                      price="$8.00"
-                    />
-
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51E9R9oq42L.jpg"
-                      title="Concise Revision Course  Biology - a Concise Revision Course for CSEC®"
-                      href="https://www.amazon.com/gp/product/0008157871/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0008157871&linkId=99f29ce50e799ef29e0d5f911a4b38d1"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51PD57+-ISL.jpg"
-                      title="Principles of Business for CSEC: Second edition"
-                      href="https://www.amazon.com/gp/product/0198437358/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0198437358&linkId=d583474463429eb4d6f94c0da154816a"
-                      price=""
-                    />
-
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/413eQ5gs+XL.jpg"
-                      title="Concise Revision Course  Physics - a Concise Revision Course for CSEC®"
-                      href="https://www.amazon.com/gp/product/0008157898/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0008157898&linkId=f6802671a30dca987da60adb8ecb679d"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51VKjccrnvL.jpg"
-                      title="Collins Biology Workbook for CSEC"
-                      href="https://www.amazon.com/gp/product/0008116016/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0008116016&linkId=85d18c6424b56a402a32cad4a4b2a850"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51mBTbnce6L.jpg"
-                      title="Geography for CSEC"
-                      href="https://www.amazon.com/gp/product/140852726X/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=140852726X&linkId=29ed2254b960259bd10839a25030a027"
-                      price=""
-                    />
-
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/41VeUzd-4mL.jpg"
-                      title="Practice Papers for CXC (CSEC) Spanish (Spanish Edition)"
-                      href="https://amzn.to/30TCsnv"
-                      price=""
-                    />
-
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/31PFwRjElQL.jpg"
-                      title="Pre-CXC Spanish Practice Papers Grades 7-9"
-                      href="https://amzn.to/3fGn2af"
-                      price=""
-                    />
-
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/41QWK4X1MRL._SL500_.jpg"
-                      title="Practice Papers for CXC Spanish"
-                      href="https://amzn.to/3fvQoYW"
-                      price=""
-                    />
-
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51k1HsGBZOL.jpg"
-                      title="Electronic Document Preparation and Management for CSEC Study Guide: Covers latest CSEC Electronic Document Preparation and Management syllabus."
-                      href="https://www.amazon.com/gp/product/1408516438/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1408516438&linkId=bdbe0033be4d945bb19da4c7e692e658"
-                      price=""
-                    />
-
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51i1zitnvHL.jpg"
-                      title="The Caribbean Environment for CSEC Geography"
-                      href="https://www.amazon.com/gp/product/0198374569/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0198374569&linkId=5eb4233adf5c866e48596c029f6e277a"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51tBYF2FnbL.jpg"
-                      title="Caribbean Food and Nutrition for CSEC"
-                      href="https://www.amazon.com/gp/product/0198374712/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0198374712&linkId=55eb40ca7b44abd7b3a9bb9b6f6b9421"
-                      price=""
-                    />
-                    <AflTextbookCard
-                      isSwipableView
-                      imgScr="https://m.media-amazon.com/images/I/51u9syrcmGL.jpg"
-                      title="Concise Revision Course – Integrated Science - a Concise Revision Course for CSEC®"
-                      href="https://www.amazon.com/gp/product/0008300100/ref=as_li_tl?ie=UTF8&tag=cxcguide-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0008300100&linkId=8936542a5d05b96df40649e9fe7883ef"
-                      price=""
-                    />
-                  </ul>
-                </div>
               </MobileView>
             </>
           </section>

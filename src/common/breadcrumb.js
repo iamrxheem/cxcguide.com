@@ -1,19 +1,29 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Link} from "gatsby";
 
 const Breadcrumb = props => {
   return (
     <>
-      <nav className="bg-grey-light p-3 rounded font-sans w-full m-4">
-        <ol className="list-reset flex text-grey-dark">
-          <li>
-            <a href="/" className="text-blue-400">
+      <ol
+        itemScope
+        itemType="http://schema.org/BreadcrumbList"
+        className="list-reset flex text-grey-dark bg-grey-light p-3 rounded font-sans w-full m-4"
+      >
+        <li
+          itemProp="itemListElement"
+          itemScope
+          itemType="http://schema.org/ListItem"
+        >
+          <Link to="/">
+            <span itemProp="name" className="text-blue-400">
               Home
-            </a>
-          </li>
-          {props.children}
-        </ol>
-      </nav>
+            </span>
+          </Link>
+          <meta itemProp="position" content="1" />
+        </li>
+        {props.children}
+      </ol>
     </>
   );
 };

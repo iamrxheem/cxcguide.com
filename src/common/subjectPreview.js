@@ -33,7 +33,20 @@ const SubjectPreview = props => {
           >
             <>
               <br />
-              <></>
+              <img src={props.imgSrc} style={{width: "100%"}} />
+
+              <br />
+              <p>{props.description}</p>
+
+              <br />
+              <a
+                className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                href={props.href}
+              >
+                Start now
+              </a>
+              <br />
+              <br />
             </>
           </Collapsible>
         </li>
@@ -46,6 +59,7 @@ SubjectPreview.propTypes = {
   title: PropTypes.node.isRequired,
   href: PropTypes.node.isRequired,
   description: PropTypes.node.isRequired,
+  imgSrc: PropTypes.node.isNotRequired,
   ready: PropTypes.bool.isRequired
 };
 
