@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Link} from "gatsby";
 
 const SubjectCard = props => {
   return (
@@ -18,12 +19,12 @@ const SubjectCard = props => {
           <p className="text-gray-700 text-base">{props.description}</p>
 
           <br />
-          <button
-            href={props.href}
+          <Link
+            to={props.href}
             className="bg-transparent rounded hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
           >
             View
-          </button>
+          </Link>
         </div>
       </div>
       <br />

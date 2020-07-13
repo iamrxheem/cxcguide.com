@@ -20,19 +20,23 @@ class Page extends React.Component {
       <>
         <Layout>
           <SEO
-            keywords={[``, ``, ``, ``]}
+            keywords={[
+              `humanities`,
+              `study`,
+              `csec`,
+              `csec`,
+              `Raheem McDonald`,
+              `csg team`,
+              `exams`
+            ]}
             title="CSEC Humanities Study Guides"
-            description=""
+            description="Start studying for your CSEC Humanities exmas and prepare for your CSEC exams with our online notes and quizzes made by teachers from around the Caribbean"
           />
 
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Study" href="/study" notLast />
-              <BreadcrumbItem title="CSEC" href="/study/csec" notLast />
-              <BreadcrumbItem
-                title="Humanities"
-                href="/study/csec/humanities"
-              />
+              <BreadcrumbItem title="CSEC" href="/study/csec" />
             </Breadcrumb>
           </section>
           <CsecStudyCarousel />

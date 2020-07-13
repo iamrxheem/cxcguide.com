@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "gatsby";
 
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
@@ -24,7 +25,7 @@ function Page() {
           `csec past papers`,
           `past papers`,
           `cxc mathematics study guide`,
-          `cxc english a study guide`,
+          `cxc english Link study guide`,
           `cxc spanich study guide`,
           `cxc english b study guide`,
           `cxc free study guide`,
@@ -98,12 +99,12 @@ function Page() {
                   className="fas fa-angle-right mr-2"
                   style={{color: "#FF08D7"}}
                 ></i>
-                <a
-                  href="/quiz/cape/communication-studies"
+                <Link
+                  to="/quiz/cape/communication-studies"
                   className="text-blue-500"
                 >
                   Communication Studies
-                </a>
+                </Link>
               </li>
 
               {/* Item */}
@@ -112,12 +113,12 @@ function Page() {
                   className="fas fa-angle-right mr-2"
                   style={{color: "#FF08D7"}}
                 ></i>
-                <a
-                  href="/quiz/cape/unit-2/caribbean-studies"
+                <Link
+                  to="/quiz/cape/unit-2/caribbean-studies"
                   className="text-blue-500"
                 >
                   Caribbean Studies
-                </a>
+                </Link>
               </li>
 
               {/* Item */}
@@ -129,18 +130,20 @@ function Page() {
                         className="fas fa-angle-right mr-2"
                         style={{color: "#FF08D7"}}
                       ></i>
-                      <a className="text-blue-500">Management of Business</a>
+                      <Link className="text-blue-500">
+                        Management of Business
+                      </Link>
                     </>
                   }
                 >
                   <ul className=" ml-5">
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                     </li>
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                     </li>
                   </ul>
                 </Collapsible>
@@ -155,18 +158,18 @@ function Page() {
                         className="fas fa-angle-right mr-2"
                         style={{color: "#FF08D7"}}
                       ></i>
-                      <a className="text-blue-500">Geography</a>
+                      <Link className="text-blue-500">Geography</Link>
                     </>
                   }
                 >
                   <ul className=" ml-5">
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                     </li>
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                     </li>
                   </ul>
                 </Collapsible>
@@ -184,18 +187,18 @@ function Page() {
                         className="fas fa-angle-right mr-2"
                         style={{color: "#FF08D7"}}
                       ></i>
-                      <a className="text-blue-500">Computer Science</a>
+                      <Link className="text-blue-500">Computer Science</Link>
                     </>
                   }
                 >
                   <ul className=" ml-5">
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                     </li>
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                     </li>
                   </ul>
                 </Collapsible>
@@ -210,18 +213,18 @@ function Page() {
                         className="fas fa-angle-right mr-2"
                         style={{color: "#FF08D7"}}
                       ></i>
-                      <a className="text-blue-500">Economics</a>
+                      <Link className="text-blue-500">Economics</Link>
                     </>
                   }
                 >
                   <ul className=" ml-5">
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                     </li>
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                     </li>
                   </ul>
                 </Collapsible>
@@ -236,18 +239,18 @@ function Page() {
                         className="fas fa-angle-right mr-2"
                         style={{color: "#FF08D7"}}
                       ></i>
-                      <a className="text-blue-500">Sociology</a>
+                      <Link className="text-blue-500">Sociology</Link>
                     </>
                   }
                 >
                   <ul className=" ml-5">
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                     </li>
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                     </li>
                   </ul>
                 </Collapsible>
@@ -262,18 +265,18 @@ function Page() {
                         className="fas fa-angle-right mr-2"
                         style={{color: "#FF08D7"}}
                       ></i>
-                      <a className="text-blue-500">Chemistry</a>
+                      <Link className="text-blue-500">Chemistry</Link>
                     </>
                   }
                 >
                   <ul className=" ml-5">
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-1/">Unit 1</a>
+                      <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                     </li>
                     <li className="mt-4 ml-5">
                       <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                      <a href="/quiz/cape/unit-2/">Unit 2</a>
+                      <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                     </li>
                   </ul>
                 </Collapsible>

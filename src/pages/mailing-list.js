@@ -2,6 +2,7 @@ import React from "react";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
 import {MobileView} from "react-device-detect";
+import MobileMenu from "../components/mobileMenu";
 
 // Common
 import Breadcrumb from "../common/breadcrumb";
@@ -86,7 +87,9 @@ class Page extends React.Component {
           title="Mailing List"
           description="Join our mailing list to get weekly study notes, flash cards and past paper solution."
         />
+
         <Layout>
+          <MobileMenu />
           <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
             <Breadcrumb>
               <BreadcrumbItem title="Mailing List" />

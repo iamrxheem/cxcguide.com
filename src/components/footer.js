@@ -256,6 +256,9 @@ function Footer() {
                 <li className="text-gray-500 mb-6">
                   <Link to="/mailing-list">Mailing List</Link>
                 </li>
+                <li className="text-gray-500 mb-6">
+                  <Link to="/about/instagram-faq">Instagram FAQ</Link>
+                </li>
               </ul>
             </div>
             <div className="sm:w-1/3 h-auto sm:mt-0 mt-8">
@@ -350,16 +353,16 @@ function Footer() {
               <a
                 style={{color: "#3182CE"}}
                 className="no-underline mr-5"
-                href="/discord-policy"
+                href="/affiliate-disclosure"
               >
-                Discord
+                Affiliate
               </a>
               <a
                 style={{color: "#3182CE"}}
                 className="no-underline mr-5"
-                href="/sharing-policy"
+                href="/discord-policy"
               >
-                Sharing
+                Discord
               </a>
             </p>
           </nav>

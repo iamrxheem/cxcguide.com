@@ -1,10 +1,7 @@
 import React from "react";
-
-import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import Obfuscate from "react-obfuscate";
-// import {Zoom} from "react-reveal";
-// import {BrowserView} from "react-device-detect";
+import StoreLayout from "../layouts/storeLayout";
+import {MobileView, BrowserView} from "react-device-detect";
 
 // Common
 import Breadcrumb from "../common/breadcrumb";
@@ -12,7 +9,7 @@ import BreadcrumbItem from "../common/breadcrumbItem";
 
 function Page() {
   return (
-    <Layout>
+    <StoreLayout>
       <SEO
         keywords={[
           `store`,
@@ -92,10 +89,20 @@ function Page() {
         <Breadcrumb>
           <BreadcrumbItem title="Store" />
         </Breadcrumb>
+
+        <MobileView>
+          <>
+            <></>
+          </>
+        </MobileView>
+
+        <BrowserView>
+          <>
+            <></>
+          </>
+        </BrowserView>
       </section>
-      <br />
-      <br />
-    </Layout>
+    </StoreLayout>
   );
 }
 

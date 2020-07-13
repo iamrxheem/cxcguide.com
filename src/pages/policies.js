@@ -2,9 +2,7 @@ import React from "react";
 import {Link} from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import Obfuscate from "react-obfuscate";
-// import {Zoom} from "react-reveal";
-// import {BrowserView} from "react-device-detect";
+import MobileMenu from "../components/mobileMenu";
 
 // Common
 import Breadcrumb from "../common/breadcrumb";
@@ -25,6 +23,8 @@ function Page() {
         title="Policies"
         description="This page lists all our policies."
       />
+
+      <MobileMenu />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb>

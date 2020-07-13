@@ -1,5 +1,6 @@
 import React from "react";
 
+import {Link} from "gatsby";
 import Layout from "../../../components/layout";
 import SEO from "../../../components/seo";
 import Collapsible from "react-collapsible";
@@ -84,18 +85,18 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">Accounting</a>
+                          <Link className="text-blue-500">Accounting</Link>
                         </>
                       }
                     >
                       <ul className=" ml-5">
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
+                          <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                         </li>
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
+                          <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                         </li>
                       </ul>
                     </Collapsible>
@@ -110,18 +111,18 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">Economics</a>
+                          <Link className="text-blue-500">Economics</Link>
                         </>
                       }
                     >
                       <ul className=" ml-5">
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
+                          <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                         </li>
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
+                          <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                         </li>
                       </ul>
                     </Collapsible>
@@ -136,18 +137,20 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">Entrepreneurship</a>
+                          <Link className="text-blue-500">
+                            Entrepreneurship
+                          </Link>
                         </>
                       }
                     >
                       <ul className=" ml-5">
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
+                          <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                         </li>
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
+                          <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                         </li>
                       </ul>
                     </Collapsible>
@@ -162,20 +165,20 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">
+                          <Link className="text-blue-500">
                             Financial Services Studies
-                          </a>
+                          </Link>
                         </>
                       }
                     >
                       <ul className=" ml-5">
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
+                          <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                         </li>
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
+                          <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                         </li>
                       </ul>
                     </Collapsible>
@@ -193,20 +196,20 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">
+                          <Link className="text-blue-500">
                             Logistics and Supply Chain
-                          </a>
+                          </Link>
                         </>
                       }
                     >
                       <ul className=" ml-5">
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
+                          <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                         </li>
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
+                          <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                         </li>
                       </ul>
                     </Collapsible>
@@ -221,20 +224,20 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">
+                          <Link className="text-blue-500">
                             Management of Business
-                          </a>
+                          </Link>
                         </>
                       }
                     >
                       <ul className=" ml-5">
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
+                          <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                         </li>
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
+                          <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                         </li>
                       </ul>
                     </Collapsible>
@@ -249,18 +252,18 @@ class Page extends React.Component {
                             className="fas fa-angle-right mr-2"
                             style={{color: "#FF08D7"}}
                           ></i>
-                          <a className="text-blue-500">Tourism</a>
+                          <Link className="text-blue-500">Tourism</Link>
                         </>
                       }
                     >
                       <ul className=" ml-5">
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-1/">Unit 1</a>
+                          <Link to="/quiz/cape/unit-1/">Unit 1</Link>
                         </li>
                         <li className="mt-4 ml-5">
                           <i className="fas fa-caret-right mr-2 text-teal-600"></i>
-                          <a href="/quiz/cape/unit-2/">Unit 2</a>
+                          <Link to="/quiz/cape/unit-2/">Unit 2</Link>
                         </li>
                       </ul>
                     </Collapsible>

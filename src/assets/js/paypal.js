@@ -1,6 +1,7 @@
 if (process.browser) {
+  let paypal = {};
   paypal
-    .buttons({
+    .Buttons({
       style: {
         shape: "rect",
         color: "gold",

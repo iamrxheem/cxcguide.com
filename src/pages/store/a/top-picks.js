@@ -1,6 +1,6 @@
 import React from "react";
 
-import Layout from "../../../components/layout";
+import StoreLayout from "../../../layouts/storeLayout";
 import PastPaperSlider from "../../../components/pastPaperSlider";
 
 import SEO from "../../../components/seo";
@@ -34,7 +34,7 @@ function Page() {
   };
 
   return (
-    <Layout>
+    <StoreLayout>
       <SEO
         keywords={[
           `store`,
@@ -326,46 +326,56 @@ function Page() {
             </div>
             <div>
               <p className="text-sm">
-                Some of the links below are affiliate links, meaning, at no
-                additional cost to you, we will earn a commission if you click
-                through and make a purchase.
+                We use affiliate links. Read our{" "}
+                <a
+                  target="_blank"
+                  href="/affiliate-disclosure"
+                  className="underline"
+                >
+                  affiliate disclosure
+                </a>
+                .
               </p>
             </div>
           </div>
         </div>
 
         <br />
-        <br />
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
-          <img
-            className="w-full"
-            src="https://img.selzstatic.com/items/237997/0cgk154gdqw/original.png?w=1600&fit=min"
-            alt="Sunset in the mountains"
-          />
-          <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Question Bank</div>
-            <p className="text-gray-700 text-base">
-              The updated collection of questions designed by Kerwin Springer
-              for students to easily prepare and succeed at 2020 July CSEC Maths
-              exams
-            </p>
 
-            <br />
-            <div className="mx-auto items-center" style={{margin: "0 auto"}}>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://kerwinspringer.com/"
-                className="bg-purple-700 hover:bg-purple-500 text-white font-bold py-3 px-5 rounded"
-              >
-                Get it now
-              </a>
+        <MobileView>
+          <br />
+          <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <img
+              className="w-full"
+              src="https://img.selzstatic.com/items/237997/0cgk154gdqw/original.png?w=1600&fit=min"
+              alt="Sunset in the mountains"
+            />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">The Question Bank</div>
+              <p className="text-gray-700 text-base">
+                The updated collection of questions designed by Kerwin Springer
+                for students to easily prepare and succeed at 2020 July CSEC
+                Maths exams
+              </p>
+
+              <br />
+              <div className="mx-auto items-center" style={{margin: "0 auto"}}>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://kerwinspringer.com/"
+                  className="bg-purple-700 hover:bg-purple-500 text-white font-bold py-3 px-5 rounded"
+                >
+                  Get it now
+                </a>
+              </div>
+              <br />
             </div>
-            <br />
           </div>
-        </div>
 
-        <br />
+          <br />
+        </MobileView>
+
         <br />
         <h1 className="text-xl text-purple-700 font-bold">
           CAPE Multiple Choice
@@ -698,7 +708,7 @@ function Page() {
         <i className="fas fa-long-arrow-alt-right ml-2 mr-2"></i>
         to see more
       </div>
-    </Layout>
+    </StoreLayout>
   );
 }
 

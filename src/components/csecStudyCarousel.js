@@ -66,14 +66,6 @@ const CsecStudyCarousel = () => {
             </h6>
             <br />
           </div>
-          <div className="block h-full w-full bg-purple-500 text-white text-5xl text-center">
-            <br />
-
-            <h6>
-              <animated.div style={props}>Done.</animated.div>
-            </h6>
-            <br />
-          </div>
         </Carousel>
       </>
     </>

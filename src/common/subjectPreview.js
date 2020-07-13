@@ -9,11 +9,16 @@ const SubjectPreview = props => {
       <li className="pb-5"></li>
       <></>
 
-      <CustomView condition={props.ready}>
-        <a href={props.href} className="text-blue-500 hover:text-blue-400">
-          <i style={{color: "#FF08D7"}} className="fas fa-angle-right mr-3"></i>
-          {props.title}
-        </a>
+      <CustomView condition={props.ready == true}>
+        <li>
+          <a href={props.href} className="text-blue-500 hover:text-blue-400">
+            <i
+              style={{color: "#FF08D7"}}
+              className="fas fa-angle-right mr-3"
+            ></i>
+            {props.title}
+          </a>
+        </li>
       </CustomView>
 
       <CustomView condition={props.ready === false}>

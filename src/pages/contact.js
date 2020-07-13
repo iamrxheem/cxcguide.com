@@ -25,7 +25,6 @@ function ContactPage() {
             <Zoom>
               <figure>
                 <img
-                  style={{width: "auto"}}
                   className=""
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGE_8uwjJ43p1vHlwEhlvg0l2ZwcfigCZJx1xlvit__FlvfXC9&usqp=CAU"
                 />

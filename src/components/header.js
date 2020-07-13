@@ -16,15 +16,15 @@ function Header() {
 
   return (
     <>
-      <header className="bg-blue-700">
+      <header className="bg-blue-600">
         <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
-          <a href="/">
+          <Link to="/">
             <h1 className="flex items-center text-white no-underline">
               <span className="text-xl font-bold tracking-tight">
                 {site.siteMetadata.title}
               </span>
             </h1>
-          </a>
+          </Link>
 
           <button
             className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
@@ -51,6 +51,10 @@ function Header() {
                 title: `Start Studying`
               },
               {
+                route: `/quiz`,
+                title: `Quiz`
+              },
+              {
                 route: `/classes`,
                 title: `Classes`
               },
@@ -63,8 +67,8 @@ function Header() {
                 title: `Blog`
               },
               {
-                route: `/FAQ`,
-                title: `FAQ`
+                route: `/about`,
+                title: `About`
               },
               {
                 route: `/contact`,
@@ -83,22 +87,12 @@ function Header() {
               <Link
                 className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
                 key="shop"
-                to="/store/afl/top-picks"
+                to="/store/a/top-picks"
               >
                 <i className="fas fa-shopping-cart"></i>
               </Link>
             </BrowserView>
           </nav>
-        </div>
-        <div
-          className="bg-red-100 border-t border-b border-red-500 text-red-700 px-4 py-3"
-          role="alert"
-        >
-          <p className="font-bold">Thanks for passing by</p>
-          <p className="text-sm">
-            Our website is still in development, and will be ready by September,
-            2020.
-          </p>
         </div>
       </header>
     </>

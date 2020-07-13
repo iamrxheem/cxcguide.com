@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "gatsby";
 
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
@@ -81,7 +82,7 @@ function Page() {
           <br />
         </MobileView>
 
-        <h1 className="text-base text-xl">Take a Quiz</h1>
+        <h1 className="text-xl text-purple-700 font-bold">Take a Quiz</h1>
 
         <CSECQuizNav />
 
@@ -96,51 +97,51 @@ function Page() {
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/english-a" className="text-blue-500">
+                <Link to="/quiz/csec/english-a" className="text-blue-500">
                   English A
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Available
                   </button>
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
                 <i
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/mathematics" className="text-blue-500">
+                <Link to="/quiz/csec/mathematics" className="text-blue-500">
                   Mathematics
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-yellow-600 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Pending
                   </button>
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
                 <i
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a
-                  href="/quiz/csec/information-technology"
+                <Link
+                  to="/quiz/csec/information-technology"
                   className="text-blue-500"
                 >
                   Information Technology
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Available
                   </button>
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
                 <i
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/economics" className="text-blue-500">
+                <Link to="/quiz/csec/economics" className="text-blue-500">
                   Economics
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Available
                   </button>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -151,60 +152,60 @@ function Page() {
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/pob" className="text-blue-500">
+                <Link to="/quiz/csec/pob" className="text-blue-500">
                   Principles of Business
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Available
                   </button>
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
                 <i
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/biology" className="text-blue-500">
+                <Link to="/quiz/csec/biology" className="text-blue-500">
                   Biology
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Available
                   </button>
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
                 <i
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/pe" className="text-blue-500">
+                <Link to="/quiz/csec/pe" className="text-blue-500">
                   Physical Education
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Available
                   </button>
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
                 <i
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/social-studies" className="text-blue-500">
+                <Link to="/quiz/csec/social-studies" className="text-blue-500">
                   Social Studies
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-red-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Not ready
                   </button>
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
                 <i
                   style={{color: "#FF08D7"}}
                   className="fas fa-angle-right mr-2"
                 ></i>
-                <a href="/quiz/csec/geography" className="text-blue-500">
+                <Link to="/quiz/csec/geography" className="text-blue-500">
                   Geography
                   <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-red-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
                     Not ready
                   </button>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

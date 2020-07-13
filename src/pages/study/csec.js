@@ -1,19 +1,15 @@
 import React from "react";
 
-import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import CsecStudyCarousel from "../../components/csecStudyCarousel";
 import CSECStudyNavigation from "../../components/csecStudyNavigation";
+import CSECStudyLayout from "../../layouts/csecStudyLayout";
 
-// Common
-// import AflTextbookCard from "../../common/aflTextbookCard";
 import Breadcrumb from "../../common/breadcrumb";
 import BreadcrumbItem from "../../common/breadcrumbItem";
 import SubjectPreview from "../../common/subjectPreview";
 import {MobileView} from "react-device-detect";
 import "react-multi-carousel/lib/styles.css";
-// import Carousel from "react-multi-carousel";
-// import SubjectCard from "../../common/subjectCard";
 
 class Page extends React.Component {
   constructor(props) {
@@ -23,7 +19,7 @@ class Page extends React.Component {
   render() {
     return (
       <>
-        <Layout>
+        <CSECStudyLayout>
           <SEO
             keywords={[
               `study`,
@@ -158,7 +154,7 @@ class Page extends React.Component {
               </MobileView>
             </>
           </section>
-        </Layout>
+        </CSECStudyLayout>
       </>
     );
   }

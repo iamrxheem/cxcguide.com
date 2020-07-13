@@ -20,7 +20,15 @@ class Page extends React.Component {
       <>
         <Layout>
           <SEO
-            keywords={[``, ``, ``, ``]}
+            keywords={[
+              `science and Technology`,
+              `study`,
+              `csec`,
+              `csec`,
+              `Raheem McDonald`,
+              `csg team`,
+              `exams`
+            ]}
             title="CSEC Languages Study Guides"
             description=""
           />

@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 // import Carousel from "react-multi-carousel";
 import LazyLoad from "react-lazyload";
 import PastPaperSlider from "../components/pastPaperSlider";
+import MobileMenu from "../components/mobileMenu";
 
 // Common
 import Breadcrumb from "../common/breadcrumb";
@@ -70,6 +71,7 @@ function Page() {
           title="CXC Past Paper Answers and Guides"
           description="Get free CXC past papers for CSEC and CAPE with answer guides and explanations."
         />
+        <MobileMenu />
 
         <Breadcrumb>
           <BreadcrumbItem title="Resources" />

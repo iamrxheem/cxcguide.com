@@ -4,7 +4,7 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Imports from "./imports";
-import MobileMenu from "./mobileMenu";
+import AdBlockDetect from "react-ad-block-detect";
 
 // Crisp chat
 import "../assets/js/crispchat.js";
@@ -22,17 +22,21 @@ function Layout({children}) {
   console.log("flex-1 full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16");
 
   return (
-    <div className="font-sans">
-      <Imports />
-      <div className="flex flex-col min-h-screen font-sans">
-        <Header />
-        <MobileMenu />
+    <>
+      <AdBlockDetect>
+        <></>
+      </AdBlockDetect>
+      <div className="font-sans">
+        <Imports />
+        <div className="flex flex-col min-h-screen font-sans">
+          <Header />
 
-        <main className="flex-1 full">{children}</main>
+          <main className="flex-1 full">{children}</main>
 
-        <Footer />
+          <Footer />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

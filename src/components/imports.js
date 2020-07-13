@@ -5,7 +5,12 @@ const Imports = () => {
   return (
     <>
       <Helmet>
+        <script
+          src="https://www.paypal.com/sdk/js?client-id=AUER68jC4GlFt44G6ROKRy_uzNeHSWcP4VlQcSBI9kAolkoOw4XIHxTa6NiSDzHxZud_bf4eD-P_Y94A&currency=USD"
+          data-sdk-integration-source="button-factory"
+        ></script>
         <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script
           type="text/javascript"
           src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"

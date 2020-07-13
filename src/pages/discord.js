@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 // React device detect
 import {MobileView} from "react-device-detect";
+import MobileMenu from "../components/mobileMenu";
 
 // Common
 import Breadcrumb from "../common/breadcrumb";
@@ -25,6 +26,7 @@ function Page() {
         title="CXC Study Discord Server"
         description="Join our Discord server and connect Caribbean students and teachers, and get the latest exam updates userful resources."
       />
+      <MobileMenu />
 
       <section className="flex-1 full max-w-4xl px-4 mx-auto md:py-5">
         <Breadcrumb>
@@ -61,7 +63,7 @@ function Page() {
 
         <p className="text-gray-700 sm:text-gray-700 lg:text-gray-700 text-base">
           We made our Discord server to bring students and teachers together,
-          and a place where they can get valuable resoures and the latest
+          and a place where they can get valuable resources and the latest
           updates on exams.
         </p>
 

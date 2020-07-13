@@ -88,12 +88,10 @@ function Page() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div style={{margin: isMobile ? "auto" : ""}}>
             <figure>
-              <Link to="/study/csec">
-                <img
-                  className=""
-                  src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/csec.png"
-                />
-              </Link>
+              <img
+                className=""
+                src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/csec.png"
+              />
             </figure>
 
             <br />
@@ -122,12 +120,10 @@ function Page() {
             </MobileView>
 
             <figure>
-              <Link to="/study/cape">
-                <img
-                  className=""
-                  src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/cape.png"
-                />
-              </Link>
+              <img
+                className=""
+                src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/cape.png"
+              />
             </figure>
 
             <br />
