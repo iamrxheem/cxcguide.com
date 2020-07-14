@@ -1,10 +1,10 @@
 import React from "react";
 
-import Layout from "../../../components/layout";
 import SEO from "../../../components/seo";
 import CsecStudyCarousel from "../../../components/csecStudyCarousel";
 // import {Link} from "gatsby";
 import CSECStudyNavigation from "../../../components/csecStudyNavigation";
+import CSECStudyLayout from "../../../layouts/csecStudyLayout";
 
 // Common
 import Breadcrumb from "../../../common/breadcrumb";
@@ -18,7 +18,7 @@ class Page extends React.Component {
   render() {
     return (
       <>
-        <Layout>
+        <CSECStudyLayout>
           <SEO
             keywords={[
               `science and Technology`,
@@ -52,7 +52,7 @@ class Page extends React.Component {
               </>
             </div>
           </section>
-        </Layout>
+        </CSECStudyLayout>
       </>
     );
   }

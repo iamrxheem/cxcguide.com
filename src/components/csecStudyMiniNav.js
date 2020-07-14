@@ -54,7 +54,7 @@ class CSECStudyMiniNav extends React.Component {
               </a>
               <a
                 href="/store/a/top-picks"
-                className="inline-block text-grey-700 no-underline lg:inline-block md:inline-block float-right"
+                className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block float-right"
               >
                 <i className="fas fa-shopping-cart fa-lg"></i>
               </a>

@@ -1,6 +1,5 @@
 import React from "react";
-
-import Layout from "../../../components/layout";
+import CSECStudyLayout from "../../../layouts/csecStudyLayout";
 import SEO from "../../../components/seo";
 import CsecStudyCarousel from "../../../components/csecStudyCarousel";
 // import {Link} from "gatsby";
@@ -18,7 +17,7 @@ class Page extends React.Component {
   render() {
     return (
       <>
-        <Layout>
+        <CSECStudyLayout>
           <SEO
             keywords={[
               `study`,
@@ -93,7 +92,7 @@ class Page extends React.Component {
               </>
             </div>
           </section>
-        </Layout>
+        </CSECStudyLayout>
       </>
     );
   }
