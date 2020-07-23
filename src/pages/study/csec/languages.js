@@ -2,7 +2,6 @@ import React from "react";
 
 import SEO from "../../../components/seo";
 import CsecStudyCarousel from "../../../components/csecStudyCarousel";
-// import {Link} from "gatsby";
 import CSECStudyNavigation from "../../../components/csecStudyNavigation";
 import CSECStudyLayout from "../../../layouts/csecStudyLayout";
 

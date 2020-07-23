@@ -95,7 +95,7 @@ class Page extends React.Component {
                 </h1>
                 <br />
                 <p>
-                  Most popular subjects rated by students - choose an subject to
+                  Most popular subjects rated by students - choose a subject to
                   begin.
                 </p>
 

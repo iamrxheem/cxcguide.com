@@ -1,7 +1,6 @@
 import React from "react";
 import {MobileView} from "react-device-detect";
 import {Link} from "gatsby";
-import {Animated} from "react-animated-css";
 
 const MobileMenu = () => {
   return (
@@ -17,22 +16,6 @@ const MobileMenu = () => {
         </nav>
 
         <nav className="sm:inline-block float-right">
-          <Link
-            to="/donate"
-            target="_blank"
-            rel="noreferrer"
-            className="pulse inline-block text-gray-700 no-underline lg:inline-block md:inline-block mr-6"
-          >
-            <Animated
-              animationIn="bounceInLeft"
-              animationOut="fadeOut"
-              isVisible={true}
-            >
-              <div>
-                <i className="fas fa-hand-holding-usd fa-lg text-green-700"></i>
-              </div>
-            </Animated>
-          </Link>
           <Link
             to="/"
             target="_blank"

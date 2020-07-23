@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../../../components/layout";
 import SEO from "../../../components/seo";
-// import {MobileView} from "react-device-detect";
+import MobileMenu from "../../../components/mobileMenu";
 import {Bounce} from "react-reveal";
 
 // Common
@@ -19,6 +19,7 @@ class Page extends React.Component {
     return (
       <>
         <Layout>
+          <MobileMenu />
           <SEO
             keywords={[
               `csec`,
@@ -54,9 +55,9 @@ class Page extends React.Component {
 
               <Bounce>
                 <h6 className="text-2xl">
-                  Check out the 2019 answer{" "}
+                  Check out the 2020 answer{" "}
                   <a
-                    href="/resources/catalogue/2019"
+                    href="/resources/catalogue/2020"
                     className="underline text-white"
                   >
                     catalogue

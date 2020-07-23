@@ -1,5 +1,5 @@
 import React from "react";
-
+import MobileMenu from "../components/mobileMenu";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import {Link} from "gatsby";
@@ -12,6 +12,7 @@ import {MobileView, isMobile} from "react-device-detect";
 function Page() {
   return (
     <Layout>
+      <MobileMenu />
       <SEO
         keywords={[
           `study`,
@@ -75,77 +76,102 @@ function Page() {
         <MobileView>
           <img src="https://www.how-to-study.com/images/study-skills-assessments.jpg" />
           <br />
+
+          <h1 className="text-2xl">Start studying</h1>
+
+          <br />
+          <p className="text-base text-gray-700 text-base">
+            Let&rsquo;s get started! Select your your course or level from the
+            list of options below.
+          </p>
+
+          <br />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+            <div style={{margin: isMobile ? "auto" : ""}}>
+              <figure>
+                <img
+                  className=""
+                  src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/csec.png"
+                />
+              </figure>
+
+              <br />
+              <p className="text-base text-gray-700 text-base">
+                Get access to hundreds of study notes, downloadabe handouts and
+                much more with our CSEC guides and quizzes.
+              </p>
+
+              <br />
+              <Link
+                style={{
+                  width: isMobile ? "100%" : "",
+                  display: isMobile ? "block" : ""
+                }}
+                to="/study/csec"
+                className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
+              >
+                Start Studying
+              </Link>
+            </div>
+
+            <div className="">
+              <MobileView>
+                <br />
+                <br />
+              </MobileView>
+
+              <figure>
+                <img
+                  className=""
+                  src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/cape.png"
+                />
+              </figure>
+
+              <br />
+              <p className="text-base text-gray-700 text-base">
+                Your CAPE examinations are important and we&rsquo;ve brought
+                together materials from teachers and students from across the
+                Caribbean.
+              </p>
+
+              <br />
+              <Link
+                style={{
+                  width: isMobile ? "100%" : "",
+                  display: isMobile ? "block" : ""
+                }}
+                to="/study/cape"
+                className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
+              >
+                Start Studying
+              </Link>
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <div>
+            <figure>
+              <img
+                className=""
+                src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/ccslc.png"
+              />
+            </figure>
+
+            <br />
+            <a
+              style={{
+                width: isMobile ? "100%" : "",
+                display: isMobile ? "block" : ""
+              }}
+              href="#"
+              disabled
+              className="disabled text-center bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4"
+            >
+              Coming soon
+            </a>
+          </div>
         </MobileView>
-        <h1 className="text-2xl">Start studying</h1>
-
-        <br />
-        <p className="text-base text-gray-700 text-base">
-          Let&rsquo;s get started! Select your your course or level from the
-          list of options below.
-        </p>
-
-        <br />
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-          <div style={{margin: isMobile ? "auto" : ""}}>
-            <figure>
-              <img
-                className=""
-                src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/csec.png"
-              />
-            </figure>
-
-            <br />
-            <p className="text-base text-gray-700 text-base">
-              Get access to hundreds of study notes, downloadabe handouts and
-              much more with our CSEC guides and quizzes.
-            </p>
-
-            <br />
-            <Link
-              style={{
-                width: isMobile ? "100%" : "",
-                display: isMobile ? "block" : ""
-              }}
-              to="/study/csec"
-              className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
-            >
-              Start Studying
-            </Link>
-          </div>
-
-          <div className="">
-            <MobileView>
-              <br />
-              <br />
-            </MobileView>
-
-            <figure>
-              <img
-                className=""
-                src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/cape.png"
-              />
-            </figure>
-
-            <br />
-            <p className="text-base text-gray-700 text-base">
-              Your CAPE examinations are important and we&rsquo;ve brought
-              together materials from teachers and students from across the
-              Caribbean.
-            </p>
-
-            <br />
-            <Link
-              style={{
-                width: isMobile ? "100%" : "",
-                display: isMobile ? "block" : ""
-              }}
-              to="/study/cape"
-              className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
-            >
-              Start Studying
-            </Link>
-          </div>
-        </div>
       </section>
     </Layout>
   );

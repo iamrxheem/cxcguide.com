@@ -51,7 +51,16 @@ class Page extends React.Component {
           <section className="flex-1 full max-w-5xl sm:px-4 px-2 mx-auto">
             <MCQ>
               {/* Question */}
-              <MCQItem />
+              <MCQItem
+                imgSrc=""
+                topic=""
+                question=""
+                optionOne=""
+                optionTwo=""
+                optionThree=""
+                optionFour=""
+                correctOption=""
+              />
             </MCQ>
           </section>
         </Layout>

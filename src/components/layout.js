@@ -4,7 +4,6 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Imports from "./imports";
-import AdBlockDetect from "react-ad-block-detect";
 
 // Crisp chat
 import "../assets/js/crispchat.js";
@@ -23,16 +22,11 @@ function Layout({children}) {
 
   return (
     <>
-      <AdBlockDetect>
-        <></>
-      </AdBlockDetect>
       <div className="font-sans">
         <Imports />
         <div className="flex flex-col min-h-screen font-sans">
           <Header />
-
           <main className="flex-1 full">{children}</main>
-
           <Footer />
         </div>
       </div>

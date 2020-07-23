@@ -99,9 +99,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/english-a" className="text-blue-500">
                   English A
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Available
-                  </button>
                 </Link>
               </li>
               <li className="pb-5">
@@ -111,9 +108,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/mathematics" className="text-blue-500">
                   Mathematics
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-yellow-600 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Pending
-                  </button>
                 </Link>
               </li>
               <li className="pb-5">
@@ -126,9 +120,6 @@ function Page() {
                   className="text-blue-500"
                 >
                   Information Technology
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Available
-                  </button>
                 </Link>
               </li>
               <li className="pb-5">
@@ -138,9 +129,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/economics" className="text-blue-500">
                   Economics
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Available
-                  </button>
                 </Link>
               </li>
             </ul>
@@ -154,9 +142,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/pob" className="text-blue-500">
                   Principles of Business
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Available
-                  </button>
                 </Link>
               </li>
               <li className="pb-5">
@@ -166,9 +151,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/biology" className="text-blue-500">
                   Biology
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Available
-                  </button>
                 </Link>
               </li>
               <li className="pb-5">
@@ -178,9 +160,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/pe" className="text-blue-500">
                   Physical Education
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-green-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Available
-                  </button>
                 </Link>
               </li>
               <li className="pb-5">
@@ -190,9 +169,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/social-studies" className="text-blue-500">
                   Social Studies
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-red-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Not ready
-                  </button>
                 </Link>
               </li>
               <li className="pb-5">
@@ -202,9 +178,6 @@ function Page() {
                 ></i>
                 <Link to="/quiz/csec/geography" className="text-blue-500">
                   Geography
-                  <button className="ml-3 py-1 px-4 shadow-md no-underline rounded-full bg-red-700 text-white font-sans font-semibold text-sm border-red btn-primary hover:text-white hover:bg-red-light focus:outline-none active:shadow-none mr-2">
-                    Not ready
-                  </button>
                 </Link>
               </li>
             </ul>

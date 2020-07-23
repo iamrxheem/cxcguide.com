@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import Carousel from "react-multi-carousel";
+
 import LazyLoad from "react-lazyload";
 import PastPaperSlider from "../components/pastPaperSlider";
 import MobileMenu from "../components/mobileMenu";
@@ -85,7 +85,7 @@ function Page() {
           <LazyLoad>
             <Bounce>
               <h6 className="text-2xl">
-                Check out the 2019 answer{" "}
+                Check out the 2020 answer{" "}
                 <a
                   href="/resources/catalogue/2019"
                   className="underline text-white"
