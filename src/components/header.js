@@ -87,7 +87,7 @@ function Header() {
               <Link
                 className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
                 key="shop"
-                to="/store/a/top-picks"
+                to="/store/a/back-to-school"
               >
                 <i className="fas fa-shopping-cart"></i>
               </Link>

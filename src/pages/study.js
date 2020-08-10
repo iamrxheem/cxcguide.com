@@ -147,30 +147,6 @@ function Page() {
               </Link>
             </div>
           </div>
-
-          <br />
-          <br />
-          <div>
-            <figure>
-              <img
-                className=""
-                src="https://46i48l108maaxssg8uyuvr10-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/ccslc.png"
-              />
-            </figure>
-
-            <br />
-            <a
-              style={{
-                width: isMobile ? "100%" : "",
-                display: isMobile ? "block" : ""
-              }}
-              href="#"
-              disabled
-              className="disabled text-center bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4"
-            >
-              Coming soon
-            </a>
-          </div>
         </MobileView>
       </section>
     </Layout>

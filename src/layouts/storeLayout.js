@@ -7,9 +7,7 @@ const StoreLayout = props => {
     <Layout>
       <div className="bulma-tabs">
         <ul>
-          <li>
-            <img style={{width: "100px"}} src="" alt="image" />
-          </li>
+          <li></li>
         </ul>
       </div>
 

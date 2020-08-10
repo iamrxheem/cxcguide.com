@@ -25,7 +25,7 @@ const MobileMenu = () => {
             <i className="fas fa-user fa-lg"></i>
           </Link>
           <Link
-            to="/store/a/top-picks"
+            to="/store/a/back-to-school"
             className="inline-block text-gray-700 no-underline lg:inline-block md:inline-block float-right"
           >
             <i className="fas fa-shopping-cart fa-lg"></i>
